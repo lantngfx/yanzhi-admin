@@ -51,7 +51,7 @@ if __name__ == '__main__':
         if opt in ('-p', '--port'):
             listen_port = int(arg)
 
-    # 启动web服务器
+    # 启动web服务器 启动服务器
     define("port", default=listen_port, help="run on the given port", type=int)
     tornado.options.parse_command_line()
     http_server = tornado.httpserver.HTTPServer(app)
