@@ -1,0 +1,754 @@
+客户端请求的基本参数:
+    versionName:    客户端安装的app版本号
+    clientType:     客户端终端信息
+    imei:           客户端的imei设备号
+    net:            客户端的网络环境
+    isVerify:       是否为审核ios发送的请求, 取值1/0
+
+
+comment: 获取直播页中课程的微作业(微笔记)信息
+uri: /get_course_note
+method: GET
+param: {
+    user_id:        @str, 用户id, 必需参数
+    course_id:      @str, 课程id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*课程作业信息*/
+    course_note: {
+        teacher_num:    @int, 讲师个数
+        teacher_list: [
+            teacher_id:         @str, 讲师id
+            teacher_name:       @str, 讲师名字
+            teacher_head_image: @str, 讲师头像
+            note_topic:         @str, 微作业主题
+            /*当前用户发表的笔记信息, note_info结构, 可能不存在*/
+            user_note: {
+                note_id:            @int, 笔记id
+                course_id:          @str, 笔记所属的课程id
+                teacher_id:         @str, 笔记所属的讲师id
+                title:              @str, 笔记标题
+                content:            @str, 笔记内容, 是html源码串 //摘要
+                time:               @str, 显示用的笔记时间
+                author_id:          @str, 笔记发布者的用户id
+                author_name:        @str, 笔记发布者的用户名
+                author_head_image:  @str, 笔记发布者的用户头像
+                score:              @str, 笔记评分
+                praise_num:         @str, 显示用的笔记点赞数
+                is_praise:          @int, 用户是否已点赞, 取值1/0
+            }
+            fellow_note_num:    @int, 同学的笔记总数目
+            /*同学的笔记列表, note_info结构的list, 可能不存在*/
+            fellow_notes: [ ... ]
+        ]
+    }
+}
+
+
+comment: 获取指定课程讲师的笔记列表
+uri: /get_teacher_note_list
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    course_id:  @str, 课程id, 必需参数
+    teacher_id: @str, 课程id, 必需参数
+    page:       @int, 页码, 从0开始, 每页笔记个数由后台控制, 非必需参数, 默认0
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*笔记信息的列表, note_info结构的list*/
+    note_list: [ ... ]
+}
+
+
+comment: 获取指定用户发表的笔记列表
+uri: /get_user_note_list
+method: GET
+param: {
+    user_id:    @str, 用户id, 必需参数
+    page:       @int, 页码, 从0开始, 每页笔记个数由后台控制, 非必需参数, 默认0
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*笔记信息的列表, note_info结构的list*/
+    note_list: [ ... ]
+}
+
+
+comment: 获取笔记详情
+uri: /get_note_detail
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    note_id:    @int, 笔记id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    note_info:          @json, note_info结构, 笔记详情
+}
+
+
+comment: 发布课程笔记
+uri: /publish_course_note
+method: POST
+param: {
+    user_id:        @str, 用户id, 必需参数
+    course_id:      @str, 课程id, 非必需参数
+    teacher_id:     @str, 课程id, 必需参数
+    title:          @str, 笔记标题, 必需参数
+    html_content:   @str, 笔记内容, 非必需参数, 是html源码串
+    list_content:   @str, 笔记内容, 非必需参数, json list: [{'type':0, 'data':'abc'}, {'type':1, 'data':'http://pic'}]
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    note_info:          @json, note_info结构, 笔记详情
+}
+
+
+comment: 点赞微作业
+uri: /praise_course_note
+method: POST
+param: {
+    user_id:    @str, 用户id, 必需参数
+    note_id:    @int, 微作业id, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+}
+
+
+comment: 获取笔记分享的信息, 客户端请求/返回json
+uri: /get_note_share_info
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    user_type:  @int, 用户id, 非必需参数, 默认0表示微信授权用户, 1表示app用户
+    note_id:    @int, 笔记id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/2笔记id不存在/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    share_info: {
+        url:            @str, 分享的链接
+        title:          @str, 分享的标题
+        content:        @str, 分享摘要内容
+        thumbnail:      @str, 分享缩略图的链接
+    }
+}
+
+
+comment: 获取课程主页的课程列表
+uri: /get_course_list
+method: GET
+param: {
+    label_id:   @str, 标签, 非必需参数, 默认''
+    user_id:    @str, 用户id, 非必需参数
+    page:       @int, 页码, 从0开始, 每页课程个数由后台控制, 非必需参数, 默认0
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*当前页的课程元信息列表, course_meta结构的list*/
+    course_list: [ {
+        course_id:          @str, 课程id
+        title:              @str, 课程标题
+        cover_image:        @str, 封面图片url链接
+        type:               @int, 课程类型, 0现场+直播, 1仅直播, 2仅现场, 100回放
+        allow_play:         @int, 0不允许播放, 1允许播放, 2有时限的播放
+        state_control:      @int, app控制逻辑需要的课程状态, 0其他(跳详情页), 1直播中(播放页)
+        state_display:      @json, 用来展示的课程状态, 例如: ['直播中', '报名中']
+        time:               @str, 后台控制的时间/时长描述
+        price:              @str, 展示价格, 20元(社员免费)/社员免费/铁杆社员免费
+        play_stat:          @str, string, 播放统计次数, 目前仅对回放有效
+    }, … ]
+}
+
+
+comment: 获取课程详情
+uri: /get_course_detail
+method: GET
+param: {
+    course_id:  @str, 课程id, 不能为空
+    user_id:    @str, 用户id, 可以为空
+    unionid:   @str, 抢到试看资格的微信union id
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+    course_detail: {
+        course_meta:            @json, 课程元信息, 参考get_course_list接口
+        course_introduce:       @str, 课程详情页的课程介绍H5链接
+        tearcher_introduce:     @str, 课程详情页的讲师介绍H5链接
+        detail_info:            @str, 课程播放页的课程详情H5链接
+        is_collect:             @int, 用户是否已收藏课程, 取值1/0
+        is_praise:              @int, 用户是否已点赞课程, 取值1/0
+        chat_room_id:           @str, 直播的聊天室id, 一般就是course_id
+        note_url:               @str, 课程笔记的入口链接
+
+        /*新版本的课程详情*/
+        v2_introduce: {
+            title:          @str, 课程标题
+            teacher:        @str, 课程讲师
+            content:        @str, 课程介绍的内容
+        }
+
+        /*多语言课程目录*/
+        i18n_directory: [ {
+            language:       @str, 视频语言, 取值'中文'/'英文'
+            /*单语种目录*/
+            directory: [ {
+                video_id:       @str, 视频id
+                video_image:    @str, 视频图片链接
+                title:          @str, 目录标题
+                time:           @str, 直播的上课时间 '7月16日 09:00-12:00', 或者回放的视频时长 '2小时25分16秒'
+                watch_progress: @int, 回放的上次观看时间点, 单位s
+            }, ... ]
+        }, ... ]
+
+        /*详情页底部信息*/
+        detail_bottom: {
+            price:          @str, 详情页底部左侧显示价格(同课程列表的显示价格可能不一致)
+            tips:           @str, 在price右侧的提示文本, 多行以\n区分
+            /*底部右侧的按钮信息*/
+            button: {
+                name:           @str, 按钮名字, 只用于显示的文本
+                /*按钮类型:
+                    type=0 播放, 点击跳转到播放页
+                    type=1 报名, 如果只有一个会场则直接报名成功, 如有多个会场则点击跳转到报名页
+                    type=2 已报名, 不可点击的按钮, 仅用作状态提醒
+                    type=3 购买, 点击跳转到购买支付页
+                    type=4 已购买, 不可点击的按钮, 仅用作状态提醒
+                    type=5 关注, 点击提示关注成功
+                    type=6 已关注, 不可点击的按钮, 仅用作状态提醒
+                    type=7 研值购买
+                */
+                type:           @int, 按钮类型
+                /*type=1报名按钮的会场信息*/
+                enroll_item: {
+                    venue_list: [ {
+                        venue_id:       @str, 会场id
+                        name:           @str, 会场名称
+                        desc:           @str, 会场描述
+                    }, … ]
+                }
+                /*type=3购买按钮的售卖信息*/
+                buy_item: {
+                    price:          @int, 支付价格, 单位分
+                    desc:           @str, 支付说明
+                    join_text:      @str, 非空则在客户端支付页显示的入社提示文案, 否则不显示入社提示
+                }
+                /*type=7研值购买按钮的售卖信息*/
+                yanzhi_item: {
+                    price:          @int, 购买课程需要的研值数
+                }
+            }
+        }
+
+        /*课程评论信息*/
+        course_comment: {
+            comment_num:    @int, 课程的评论数
+            /*默认展开的评论列表, comment_meta结构的list*/
+            comment_list: [ {
+                /*comment_meta结构*/
+            }, ... ]
+        }
+
+        /*试看限制*/
+        play_limit: {
+            expire_timetamp:    @int, 允许试看的截止时间戳, 单位s
+            expire_text:        @str, 试看到期的文案描述
+        }
+    }
+}
+
+
+comment: 获取oss视频链接
+uri: /oss_video_url
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    video_id:   @str, 视频id, 必需参数
+    clarity:    @int, 清晰度, 0高清/1标清/2音频, 非必需参数, 默认0
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    video_info: {
+        url:            @str, 视频链接
+        cur_clarity:    @int, 当前清晰度
+        clarity_list:   @list of int, 视频的清晰度列表
+    }
+}
+
+
+comment: 获取课程分享的信息, 客户端请求/返回json
+uri: /get_course_share_info
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    course_id:  @str, 课程id, 必需参数
+    video_id:   @str, 视频id, 非必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    share_info: {
+        url:            @str, 分享的链接
+        title:          @str, 分享的标题
+        content:        @str, 分享摘要内容
+        thumbnail:      @str, 分享缩略图的链接
+    }
+}
+
+
+comment: 获取试看分享资源的详细信息, H5端请求/返回json
+uri: /share_play_info
+method: GET
+param: {
+    share_id:   @int, 分享试看id, 必需参数
+    unionid:    @str, 请求用户的微信unionid, 非必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/2没有找到试看分享的资源/3其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    play_info: {
+        share_id:       @int, 试看分享id
+        share_title:    @str, 分享标题
+        video_url:      @str, 视频播放链接
+        course_id:      @str, 课程id
+        jump_app_type:  @str, H5掉起app的页面类型
+        course_title:   @str, 课程标题
+        cover_image:    @str, 课程封面图链接
+        course_intro:   @str, 课程介绍
+        price:          @str, 价格
+        share_tips:     @str, 分享提示文案
+        has_rob:        @str, 请求用户是否已经抢过
+        rest_quota:     @int, 剩余名额
+        /*已领取用户列表*/
+        rob_list: [ {
+            unionid:        @str, 用户微信unionid
+            name:           @str, 领取者的用户名
+            head_image:     @str, 领取者的用户头像
+            rob_time:       @str, 领取时间
+        }, ... ]
+    }
+}
+
+
+comment: 领取分享的试看课程, H5端请求/返回json
+uri: /rob_share_play
+method: GET
+param: {
+    share_id:   @int, 分享的试看id, 必需参数
+    unionid:    @str, 用户的微信unionid, 必需参数
+}
+return: {
+    error_no:       @int, 0表示接口返回抢试看成功/1已被抢光/2其他错误
+    error_msg:      @str, error_no不为0时的错误提示信息
+}
+
+
+comment: 查询当前开启中的打赏对象
+uri: /get_current_reward
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    course_id:  @str, 课程id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/2课程id不存在/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*打赏对象信息, reward_info结构*/
+    reward_info: {
+        reward_id:          @str, 打赏id
+        title:              @str, 打赏标题, 一般是讲师名字
+        amount_list: [5000, 10000, 20000]   @list, 默认的金额列表，以分为单位的int list(元素固定为三个)
+        teacher_name:       @str, 讲师名字
+        teacher_head_image: @str, 讲师头像
+    }
+}
+
+
+comment: 查看打赏福利信息
+uri: /get_reward_prize
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    reward_id:  @str, 打赏id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/2打赏id不存在/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    reward_prize: {
+        reward_info:        @json, 打赏信息, reward_info结构
+        prize_list: [ {  /*打赏福利信息*/
+            title:          @str, 福利标题
+            content:        @str, 福利内容
+        }, ... ]
+    }
+}
+
+
+comment: 查看新版本的打赏排行榜
+uri: /get_reward_rank
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    reward_id:  @str, 打赏id, 必需参数
+    phone:      @str, 电话号码, 必须参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/2课程id不存在/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    rank_info:{
+        /*打赏对象信息*/
+        reward_info:        @json, 打赏信息, reward_info结构
+
+        /*我的排名信息*/
+        my_rank: {  /*打赏排名信息*/
+            user_name:      @str, 打赏用的用户姓名
+            user_phone:     @str, 打赏用的用户手机号
+            reward_money:   @int, 打赏金额
+            reward_rank:    @int, 打赏排名
+            reward_count:   @int, 打赏次数
+        }
+
+        /*打赏排名列表*/
+        rank_list: [ {
+            user_name:      @str, 打赏用的用户姓名
+            user_phone:     @str, 打赏用的用户手机号
+            reward_money:   @int, 打赏金额
+            reward_rank:    @int, 打赏排名
+            reward_count:   @int, 打赏次数
+        }, ... ]
+    }
+}
+
+
+comment: 查看打赏对象列表
+uri: /get_reward_object
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    course_id:  @str, 课程id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/2课程id不存在/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    reward_list: [ {
+        /*reward_info结构的打赏信息*/
+    }, ... ]
+}
+
+
+comment: 获取课程的相册列表, H5端请求/返回json
+uri: /get_vphoto_list
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    course_id:  @str, 课程id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/2课程id不存在/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*相片信息的列表*/
+    photo_list: [ {
+        photo_id:       @str, 相片id
+        thumbnail:      @str, 相片的缩略图链接
+        original_url:   @str, 相片的原图链接
+    }, ... ]
+}
+
+
+comment: 获取课程的基础信息, H5端请求/返回json
+uri: /get_course_meta
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    course_id:  @str, 课程id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/2课程id不存在/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*课程基础信息*/
+    course_meta: {
+        course_id:      @str, 课程id
+        title:          @str, 课程标题
+        cover_image:    @str, 图片url链接
+        type:           @int, 类型, 0现场+直播, 1仅直播, 2仅现场, 100回放
+        allow_play:     @int, 是否有播放权限, 0不允许, 1允许
+        state_control:  @int, app控制逻辑需要的课程状态, 0其他, 1直播中
+        state_display:  @json, [直播中, 报名中] 用来展示的课程状态
+        time:           @str, 后台控制的时间/时长描述
+        price:          @str, 展示价格, 20元/社员免费/铁杆社员免费
+        play_stat:      @str, 播放统计次数, 目前仅对回放有效
+    }
+}
+
+
+comment: 获取评论分享的信息, 客户端请求/返回json
+uri: /get_comment_share_info
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    comment_id: @int, 评论id, 必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    share_info: {
+        cover_image:    @str, 评论对应的课程封面图
+        course_title:   @str, 课程标题
+        comment_title:  @str, 评论标题
+    }
+}
+
+
+comment: 用户购买研值课程, 客户端请求/返回json
+uri: /buy_yanzhi_course
+method: POST
+param: {
+    user_id:    @str, 用户id, 必需参数
+    course_id:  @str, 课程id, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回购买成功/1请求参数不合法/2研值不足/3其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+}
+
+
+comment: 视频分享页的H5页面, 外部浏览器请求/返回H5页面
+uri: /h5_video_share
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    course_id:  @str, 课程id, 必需参数
+    video_id:   @str, 视频id, 非必需参数
+}
+return: H5页面
+
+
+comment: 获取课程的开启中的研值福利信息, 客户端请求/返回json
+uri: /get_yanzhi_reward
+method: GET
+param: {
+    user_id:    @str, 用户id, 必需参数
+    course_id:  @str, 课程id, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/2没有开启中的研值福利/3其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+    /*课程研值福利信息*/
+    yanzhi_reward: {
+        start_wait_time:    @int, 距离开始抢福利的等待时间, 单位s
+        cover_image:        @str, 研值福利背景图链接
+        teacher_name:       @str, 讲师名字
+        /*研值福利信息列表*/
+        yanzhi_reward_list: [ {
+            id:             @int, 研值福利id
+            title:          @str, 研值福利标题
+            quota:          @int, 福利预设名额数
+            type:           @int, 剩余名额数, 0=等待中/1=进行中/2=已抢光/3=已获得
+            cost:           @int, 需要消耗的研值数
+        }, ... ]
+    }
+}
+
+
+comment: 用户请求抢研值福利, 客户端请求/返回json
+uri: /rob_yanzhi_reward
+method: GET
+param: {
+    user_id:    @str, 用户id, 必需参数
+    reward_id:  @int, 研值福利id, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回抢福利成功/1已被抢光/2研值不足/3其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+}
+
+
+comment: 获取课程的一级评论列表, 客户端请求/返回json
+uri: /get_comment_list
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    course_id:  @str, 课程id, 必需参数
+    page:       @int, 页码, 从0开始, 每页回复个数由后台控制, 非必需参数, 默认0
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/2课程id不存在/3其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+    /*课程评论信息*/
+    course_comment: {
+        comment_num:        @int, 课程评论总数
+        /*当前页的课程评论元信息列表, comment_meta结构的list*/
+        comment_list: [ {
+            comment_id:         @int, 评论id
+            author_id:          @str, 评论发布者的用户id
+            author_name:        @str, 评论发布者的用户名
+            author_head_image:  @str, 评论发布者的用户头像
+            content:            @str, 评论的完整内容
+            time:               @str, 显示用的评论时间
+            is_praise:          @int, 当前用户是否点赞了该评论
+            praise_num:         @str, 显示用的评论点赞数
+            reply_num:          @str, 显示用的评论回复数
+        }, ... ]
+    }
+}
+
+
+comment: 发表课程的一级评论, 客户端请求/返回json
+uri: /publish_course_comment
+method: POST
+param: {
+    user_id:    @str, 用户id, 必需参数
+    course_id:  @str, 课程id, 必需参数
+    content:    @str, 评论内容, 需要支持表情字符, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+    comment_info:           @json, comment_meta结构, 评论的回复信息
+}
+
+
+comment: 点赞课程的一级评论, 客户端请求/返回json
+uri: /praise_course_comment
+method: POST
+param: {
+    user_id:    @str, 用户id, 必需参数
+    comment_id: @int, 一级评论id, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+}
+
+
+comment: 获取一级评论的二级评论列表, 客户端请求/返回json
+uri: /get_reply_list
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    comment_id: @int, 一级评论id, 必需参数
+    page:       @int, 页码, 从0开始, 每页回复个数由后台控制, 非必需参数, 默认0
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/2评论id不存在/3其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+    /*评论回复信息*/
+    comment_reply: {
+        reply_num:        @int, 评论的回复总数
+        /*当前页的评论回复元信息列表, reply_meta结构的list*/
+        reply_list: [ {
+            reply_id:           @int, 回复id
+            author_id:          @str, 回复发布者的用户id
+            author_name:        @str, 回复发布者的用户名
+            author_head_image:  @str, 回复发布者的用户头像
+            content:            @str, 回复的完整内容
+            time:               @str, 显示用的评论时间
+            is_praise:          @int, 当前用户是否点赞了该评论
+            praise_num:         @str, 显示用的评论点赞数
+        }, ... ]
+    }
+}
+
+
+comment: 发表一级评论的二级评论, 客户端请求/返回json
+uri: /publish_comment_reply
+method: POST
+param: {
+    user_id:    @str, 用户id, 必需参数
+    comment_id: @int, 一级评论id, 必需参数
+    content:    @str, 回复内容, 需要支持表情字符, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+    reply_info:             @json, reply_meta结构, 评论的回复信息
+}
+
+
+comment: 点赞一级评论的二级评论, 客户端请求/返回json
+uri: /praise_comment_reply
+method: POST
+param: {
+    user_id:    @str, 用户id, 必需参数
+    reply_id:   @int, 二级评论id, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+}
+
+
+comment: 获取课程的一级评论详情, 客户端请求/返回json
+备注: 预留的扩展接口, app客户端目前用不着. 2016-07-27
+uri: /get_comment_detail
+method: POST
+param: {
+    user_id:    @str, 用户id, 非必需参数
+    comment_id: @int, 一级评论id, 必需参数
+}
+return: {
+    error_no:               @int, 0表示接口返回正常/1请求参数不合法/2评论id不存在/3其他错误
+    error_msg:              @str, error_no不为0时的错误提示信息
+    /*一级评论详细信息, 包括基础信息和二级评论列表*/
+    comment_detail: {
+        comment_meta:           @json, 课程评论元信息, 参考get_comment_list接口
+        /*评论回复信息*/
+        comment_reply: {
+            reply_num:          @int, 评论的回复总数
+            /*当前页的评论回复元信息列表, reply_meta结构的list*/
+            reply_list: [ {
+                /*reply_meta结构*/
+            }, ... ]
+        }
+    }
+}
+
+
+comment: 获取课程标签列表
+uri: /get_label_list
+method: GET
+param: None
+return: {
+    error_no:           @int, 0表示接口返回正常/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*标签列表*/
+    label_list: ['', ... ]
+    label_info_list: [ {
+        label_name:     @str, 标签的名字
+        label_type:     @int，标签的类型; 1 表示课程的列表, 2 表示课程表
+    }, ... ]
+}
+
+
+comment: 获取课程表信息
+uri: /get_course_schedule
+method: GET
+param: {
+    user_id:    @str, 用户id, 非必需参数
+}
+return: {
+    error_no:           @int, 0表示接口返回正常/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    /*课程列表*/
+    schedule_list: [ {
+        title:              @str, 课程标题
+        time:               @str, 开课时间
+        status:             @str, 课程的状态
+        tearcher_list: [ {
+            teacher_name:       @str, 老师的姓名
+            teacher_position:   @str, 老师的职位
+        }, ... ]
+    }, ... ]
+}

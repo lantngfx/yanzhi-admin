@@ -1,0 +1,183 @@
+comment:登录研值系统
+url:/yanzhi-admin/login
+method:GET
+param:{
+    admin_name:                     @str,管理员账号,必需
+    admin_passwd:                   @str,管理员账号密码,必需
+}
+return:{
+	error_no:                       @int,0表示接口返回正常/1表示参数不合法/-1表示登录失败
+    error_msg:                      @str, error_no不为0时的错误提示信息
+	admin:{
+	    admin_id:               @str,管理员id
+	    admin_name:             @str,管理员账号
+	    phone:                  @str,管理员电话
+	}
+}	
+
+comment:修改用户密码
+url:/yanzhi-admin/update_password
+method:POST
+param:{
+	admin_name:					@str,用户名，必需
+	old_password:				@str,老密码，必需
+	new_password:				@str,新密码,必需
+}
+return:{
+	error_no:           @int, 0表示接口返回正常/1请求参数不合法/-1表示老的密码错误
+    error_msg:          @str, error_no不为0时的错误提示信息	
+}
+
+comment:获取研值及对应的用户信息
+url:/yanzhi-admin/get_yanzhi_list
+method:GET
+param:{
+	name:				@str,用户姓名，非必需
+	nickname:			@str,用户昵称，非必须
+	phone：				@str,用户手机号，非必须
+	page_no:			@int,页数，默认为0,，非必需
+	时间
+}
+return:{
+	error_no:           @int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          @str, error_no不为0时的错误提示信息
+    data:{
+    	total_number:	@int,总的记录数，按30条数据分页
+    	user_list:[{
+    		uid:		@str,用户的id(不展示)
+    		name:		@str,用户的姓名
+    		nickname:	@str，用户的昵称
+    		utype:		@str,用户类型
+    		phone:      @str,用户电话
+    		tp_type：	@str,三方类型
+    		yanzhi； 	@int,研值数
+    	},]
+    }
+}
+
+comment:获取用户的研值详情
+url:http://yanzhi.hundun.cn/yanzhi/detail
+method:GET
+param:{
+	uid:					@str,用户id，必需
+}
+return:{
+ 	error_no:           	@int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          	@str, error_no不为0时的错误提示信息
+    data:{
+        total:				@str,用户的研值总是
+        detail:[{
+            time_display:	@str,时间
+            name:			@str,获得或消耗研值的项目名称
+            value_display:	@str,此项目的研值数
+        },]
+    }
+}
+
+comment:导出所有研值
+url:/yanzhi-admin/export
+method:GET
+param:{
+    None
+}
+return:{
+ 	error_no:           	@int, 0表示增加成功/1请求参数不合法/其他错误
+    error_msg:          	@str, error_no不为0时的错误提示信息
+    down_url:               @str，下载文件的链接
+}
+
+comment:单个增加研值
+url:/yanzhi-admin/add_yanzhi
+method:POST
+param:{
+    phone:                  @str,电话号码，必需
+    yanzhi_value:           @int,增加的研值数，必需
+    title:                  @str,增加研值的原因，必需
+    time:                   @str，用户现在增加研值的时间,必需
+}
+return:{
+ 	error_no:           	@int, 0表示增加成功/1请求参数不合法/其他错误
+    error_msg:          	@str, error_no不为0时的错误提示信息
+}
+
+comment:获取所有研值规则
+url:/yanzhi-admin/get_rules
+method:GET
+param:{
+    None
+}
+return:{
+ 	error_no:           	@int, 0表示修改成功/1请求参数不合法/其他错误
+    error_msg:          	@str, error_no不为0时的错误提示信息
+    data:[{
+        id:                 @str，规则id
+        name:               @str，规则名称
+        flag:               @str,增加/减少
+        op_value:           @int,操作的研值数
+    },]
+}
+
+comment:配置研值活动（修改）
+url:/yanzhi-admin/update-rule
+method:POST
+param:{
+    id:                         @str,研值规则id，必需
+    op_value：                  @str,研值数,必需
+}
+return:{
+ 	error_no:           	@int, 0表示修改成功/1请求参数不合法/其他错误
+    error_msg:          	@str, error_no不为0时的错误提示信息
+}
+
+comment:修改推广页面背景图 (待定)
+url:/yanzhi-admin/update_picture
+method:POST
+param:{
+    picture:            @file,图片的,必需
+}
+return:{
+ 	error_no:           	@int, 0表示修改成功/1请求参数不合法/其他错误
+    error_msg:          	@str, error_no不为0时的错误提示信息
+}
+
+comment:查询所有明细
+url:/yanzhi-admin/all_yanzhi_detail
+method:GET
+param:{
+    op_type:                @str,操作类型,非必需
+    start_time:             @str,开始时间，非必需
+    end_time:               @str,结束时间，非必需
+    op_value:               @int,操作的研值，非必需
+    page_no:                @int,页数，默认为0，非必需
+}
+return:{
+ 	error_no:           	@int, 0表示接口返回正常/1请求参数不合法/其他错误
+    error_msg:          	@str, error_no不为0时的错误提示信息
+    data:{
+        detail_list:[{
+            id:             @str，此记录的id
+            uid:            @str,用户的id
+            op_type：       @str,操作类型
+            obj_title：     @str,操作名称
+            create_time：   @str,操作时间
+            op_value:       @int,操作研值数
+        },]
+        total_number:       @int，符合条件的总数
+    }
+}
+
+comment:修改明细
+url:/yanzhi-admin/update_detail
+method:POST
+param:{
+    param:[{
+        id:                 @str,规则id，必需
+        value:              @str,规则的值，必需
+    },]
+    }
+}
+return:{
+ 	error_no:           	@int, 0表示修改成功/1请求参数不合法/其他错误
+    error_msg:          	@str, error_no不为0时的错误提示信息
+}
+

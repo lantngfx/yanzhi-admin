@@ -1,0 +1,831 @@
+2016-09-24 16:37:01,395 - get_teacher_list.py:21 - error - 参数不合法 page_no=xx
+2016-09-24 16:37:39,711 - get_teacher_list.py:21 - error - 参数不合法 page_no[xx]
+2016-09-24 16:45:31,206 - teacehr_model.py:40 - error - select teacher table has error[(1146, "Table 'course.teachesr' doesn't exist")]
+2016-09-24 16:47:45,625 - teacehr_model.py:40 - error - select teacher table has error[(1146, "Table 'course.teachesr' doesn't exist")]
+2016-09-24 16:47:46,802 - teacehr_model.py:40 - error - select teacher table has error[(1146, "Table 'course.teachesr' doesn't exist")]
+2016-09-24 16:48:01,625 - teacehr_model.py:40 - error - select teacher table has error[(1146, "Table 'course.teachesr' doesn't exist")]
+2016-09-24 16:48:31,676 - teacehr_model.py:40 - error - select teacher table has error[(1146, "Table 'course.teachesr' doesn't exist")]
+2016-09-25 09:39:00,790 - teacehr_model.py:42 - error - select teacher table has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10*0,10' at line 1")]
+2016-09-25 09:40:31,286 - teacehr_model.py:42 - error - select teacher table has error[(1065, 'Query was empty')]
+2016-09-25 09:42:09,107 - teacehr_model.py:42 - error - select teacher table has error[(1065, 'Query was empty')].sql[]
+2016-09-25 09:46:23,756 - teacehr_model.py:42 - error - select teacher table has error[(1065, 'Query was empty')].sql[]
+2016-09-25 09:47:00,549 - teacehr_model.py:42 - error - select teacher table has error[(1065, 'Query was empty')].sql[]
+2016-09-25 09:48:05,528 - teacehr_model.py:42 - error - select teacher table has error[(1065, 'Query was empty')].sql[]
+2016-09-25 09:58:26,197 - teacehr_model.py:45 - error - select teacher table has error[(1065, 'Query was empty')].sql[]
+2016-09-25 10:10:39,898 - get_teacher_list_handler.py:21 - error - parameter page_no invalid
+2016-09-25 10:42:51,296 - get_teacher_list_handler.py:21 - error - parameter page_no invalid
+2016-09-25 10:42:59,967 - get_teacher_list_handler.py:21 - error - parameter page_no invalid
+2016-09-25 10:44:06,334 - get_teacher_list_handler.py:21 - error - parameter page_no invalid
+2016-09-25 12:07:40,732 - get_teacher_list.py:27 - error - parameter page_no invalid
+2016-09-25 14:05:01,927 - add_teacher.py:64 - error - parameter status value not 0 or 1
+2016-09-25 14:06:38,311 - add_teacher.py:64 - error - parameter status value not 0 or 1
+2016-09-25 14:09:09,572 - add_teacher.py:64 - error - parameter status value not 0 or 1
+2016-09-25 14:10:01,982 - add_teacher.py:65 - error - parameter status value not 0 or 1
+2016-09-25 14:26:32,644 - add_teacher.py:78 - error - 1
+2016-09-25 14:32:14,417 - add_teacher.py:78 - error - insert into teacher (teacher_id,name,position,head_image,introduce,status) value ('1293bbb516067d83c42929fecb0f169f','娄永峰','呵呵哒....','http://......','呵呵哒....',0)
+2016-09-25 14:48:16,848 - add_teacher.py:72 - error - [<model.teacehr_model.TeacherMeta instance at 0x00000000035F29C8>]
+2016-09-25 14:49:12,096 - add_teacher.py:73 - error - has exist sql[select * from teacher where name = '娄永峰']
+2016-09-25 15:03:49,542 - update_teacher.py:17 - error - parameter teacher_id invalid
+2016-09-25 15:06:55,615 - update_teacher.py:17 - error - parameter teacher_id invalid
+2016-09-25 15:08:14,490 - update_teacher.py:44 - error - update teacher set name='娄永锋' where teacher_id = '1293bbb516067d83c42929fecb0f169f'
+2016-09-25 15:18:18,161 - update_teacher.py:34 - error - 1
+2016-09-25 15:18:18,161 - update_teacher.py:45 - error - update teacher set name='娄永锋' where teacher_id = '1293bbb516067d83c42929fecb0f169f'
+2016-09-25 15:18:44,628 - update_teacher.py:34 - error - 1
+2016-09-25 15:18:44,628 - update_teacher.py:45 - error - update teacher set name='娄永锋' where teacher_id = '1293bbb516067d83c42929fecb0f169f'
+2016-09-25 15:20:21,984 - update_teacher.py:34 - error - 1
+2016-09-25 15:20:21,986 - update_teacher.py:45 - error - update teacher set name='娄永锋' where teacher_id = '1293bbb516067d83c42929fecb0f169f'
+2016-09-25 15:20:26,796 - update_teacher.py:34 - error - 1
+2016-09-25 15:20:26,796 - update_teacher.py:45 - error - update teacher set name='娄永锋' where teacher_id = '1293bbb516067d83c42929fecb0f169f'
+2016-09-25 15:21:27,532 - update_teacher.py:34 - error - 1
+2016-09-25 15:21:27,581 - update_teacher.py:46 - error - 0
+2016-09-25 15:22:14,530 - update_teacher.py:34 - error - 1
+2016-09-25 15:22:14,588 - update_teacher.py:46 - error - 1
+2016-09-25 15:29:14,980 - update_teacher.py:34 - error - 1
+2016-09-25 15:29:15,026 - update_teacher.py:46 - error - 1
+2016-09-25 15:46:47,029 - update_teacher.py:34 - error - 1
+2016-09-25 15:46:47,082 - update_teacher.py:46 - error - 1
+2016-09-25 15:50:00,384 - update_teacher.py:34 - error - 2
+2016-09-25 15:50:00,434 - update_teacher.py:46 - error - 1
+2016-09-29 16:32:34,453 - get_course_detail.py:19 - error - param course_id[] invalid
+2016-09-29 16:33:00,611 - get_course_detail.py:19 - error - param course_id[] invalid
+2016-10-06 23:42:08,915 - get_video_detail.py:19 - error - param video_id[] invalid
+2016-10-08 09:29:59,927 - teacehr_model.py:68 - error - get course detail has error[get() takes at least 2 arguments (1 given)].sql[select * from teacher where teacher_id = '0282f36406cc10b3fd5326951e61d10b']
+2016-10-08 09:29:59,951 - get_teacher_detail.py:31 - error - not found teacher[0282f36406cc10b3fd5326951e61d10b]
+2016-10-08 09:32:04,180 - teacehr_model.py:68 - error - get course detail has error[get() takes at least 2 arguments (1 given)].sql[select * from teacher where teacher_id = '0282f36406cc10b3fd5326951e61d10b']
+2016-10-08 11:26:19,726 - video_model.py:29 - error - get video list has error[not enough arguments for format string].sql[select * from course_video where title like '%李善友%' limit 30,10]
+2016-10-08 11:26:19,727 - video_model.py:29 - error - get video list has error[not enough arguments for format string].sql[select * from course_video where title like '%李善友%']
+2016-10-08 12:07:51,355 - video_model.py:33 - error - get video list has error[not enough arguments for format string].sql[select * from course_video where title like '%非连续性%' limit 0,10]
+2016-10-08 12:09:59,401 - video_model.py:33 - error - get video list has error[not enough arguments for format string].sql[select * from course_video where title like '%非连续性%']
+2016-10-08 14:39:22,019 - video_model.py:39 - error - not found any video.sql[select * from course_video where video_id = '975070630' and seq_no = 0]
+2016-10-08 17:22:39,792 - video_model.py:48 - error - update course_video fail sql[update course_video set video_image='http://......', status=1, title='娄永锋-测试', seq_no=4, duration=1234 where video_id='237389519']
+2016-10-08 17:24:06,960 - video_model.py:39 - error - not found any video.sql[select * from course_video where video_id = '237389519' and seq_no = 0]
+2016-10-08 17:25:35,486 - video_model.py:48 - error - update course_video fail sql[update course_video set video_image='http://......', status=1, title='娄永锋-测试-测试', seq_no=4, duration=1234 where video_id='237389519']
+2016-10-08 17:26:47,801 - video_model.py:44 - error - 0
+2016-10-08 17:26:47,801 - video_model.py:49 - error - update course_video fail sql[update course_video set video_image='http://', status=1, title='娄永锋-测试-测试', seq_no=4, duration=1234 where video_id='237389519']
+2016-10-08 17:54:51,542 - video_model.py:44 - error - 1
+2016-10-08 17:54:51,542 - update_video.py:41 - error - update course_video success[update course_video set video_image='http://', status=1, title='娄永锋-测试', seq_no=4, duration=1234 where video_id='237389519']
+2016-10-09 10:00:50,612 - video_model.py:58 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[u'video_image', u'status', u'title', 'video_id', 'course_id', u'seq_no', u'dura' at line 1")].sql[insert into course_video([u'video_image', u'status', u'title', 'video_id', 'course_id', u'seq_no', u'duration']) VALUE (["'http://'", "'1'", "'\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009'", "'5adc95ba53adec19ee7c338cd8f1950b'", "'5adc95ba53adec19ee7c338cd8f1950b'", 4, 1234])]
+2016-10-09 10:07:34,877 - add_video.py:58 - error - insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', 1, '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', 4, 1234])
+2016-10-09 10:07:34,882 - video_model.py:58 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration'' at line 1")].sql[insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', 1, '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', 4, 1234])]
+2016-10-09 10:12:09,382 - add_video.py:58 - error - insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', 1, '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', 4, 1234])
+2016-10-09 10:12:09,388 - video_model.py:58 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration'' at line 1")].sql[insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', 1, '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', 4, 1234])]
+2016-10-09 10:13:08,663 - add_video.py:58 - error - insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', 1, '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', 4, 1234])
+2016-10-09 10:13:08,663 - add_video.py:59 - error - video_image,status,title,video_id,course_id,seq_no,duration
+2016-10-09 10:13:08,670 - video_model.py:58 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration'' at line 1")].sql[insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', 1, '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', 4, 1234])]
+2016-10-09 10:13:59,012 - add_video.py:58 - error - insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', 1, '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', 4, 1234])
+2016-10-09 10:13:59,013 - add_video.py:59 - error - video_image,status,title,video_id,course_id,seq_no,duration
+2016-10-09 10:14:55,444 - add_video.py:58 - error - insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', 1, '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', 4, 1234])
+2016-10-09 10:14:55,444 - add_video.py:59 - error - video_image,status,title,video_id,course_id,seq_no,duration
+2016-10-09 10:15:59,819 - add_video.py:58 - error - insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', '1', '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', '4', '1234'])
+2016-10-09 10:15:59,819 - add_video.py:59 - error - video_image,status,title,video_id,course_id,seq_no,duration
+2016-10-09 10:15:59,819 - add_video.py:60 - error - http://,1,娄永锋-测试V1009,5adc95ba53adec19ee7c338cd8f1950b,5adc95ba53adec19ee7c338cd8f1950b,4,1234
+2016-10-09 10:15:59,825 - video_model.py:58 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration'' at line 1")].sql[insert into course_video(['video_image', 'status', 'title', 'video_id', 'course_id', 'seq_no', 'duration']) VALUE (['http://', '1', '\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009', '5adc95ba53adec19ee7c338cd8f1950b', '5adc95ba53adec19ee7c338cd8f1950b', '4', '1234'])]
+2016-10-09 10:19:03,907 - add_video.py:58 - error - insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE (["'http://'", '1', "'\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009'", "'5adc95ba53adec19ee7c338cd8f1950b'", "'5adc95ba53adec19ee7c338cd8f1950b'", '4', '1234'])
+2016-10-09 10:19:03,907 - add_video.py:59 - error - 'http://',1,'娄永锋-测试V1009','5adc95ba53adec19ee7c338cd8f1950b','5adc95ba53adec19ee7c338cd8f1950b',4,1234
+2016-10-09 10:19:03,914 - video_model.py:58 - error - insert course_video has error[(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'["\'http://\'", \'1\', "\'\\xe5\\xa8\\x84\\xe6\\xb0\\xb8\\xe9\\x94\\x8b-\\xe6\\xb5\\x8b\\xe8\\xaf\\x\' at line 1')].sql[insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE (["'http://'", '1', "'\xe5\xa8\x84\xe6\xb0\xb8\xe9\x94\x8b-\xe6\xb5\x8b\xe8\xaf\x95V1009'", "'5adc95ba53adec19ee7c338cd8f1950b'", "'5adc95ba53adec19ee7c338cd8f1950b'", '4', '1234'])]
+2016-10-09 10:19:52,624 - add_video.py:58 - error - insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试V1009','5adc95ba53adec19ee7c338cd8f1950b','5adc95ba53adec19ee7c338cd8f1950b',4,1234)
+2016-10-09 10:19:52,654 - video_model.py:61 - error - insert course_video fail sql[insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试V1009','5adc95ba53adec19ee7c338cd8f1950b','5adc95ba53adec19ee7c338cd8f1950b',4,1234)]
+2016-10-09 10:19:57,019 - add_video.py:58 - error - insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试V1009','5adc95ba53adec19ee7c338cd8f1950b','5adc95ba53adec19ee7c338cd8f1950b',4,1234)
+2016-10-09 10:19:57,023 - video_model.py:58 - error - insert course_video has error[(1062, "Duplicate entry '5adc95ba53adec19ee7c338cd8f1950b-0-4' for key 'PRIMARY'")].sql[insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试V1009','5adc95ba53adec19ee7c338cd8f1950b','5adc95ba53adec19ee7c338cd8f1950b',4,1234)]
+2016-10-09 10:20:46,154 - add_video.py:58 - error - insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试01V1009','47dcbeeb8daeb619e612dd388e1f10e5','47dcbeeb8daeb619e612dd388e1f10e5',4,1234)
+2016-10-09 10:20:46,176 - video_model.py:61 - error - insert course_video fail sql[insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试01V1009','47dcbeeb8daeb619e612dd388e1f10e5','47dcbeeb8daeb619e612dd388e1f10e5',4,1234)]
+2016-10-09 10:22:01,706 - video_model.py:61 - error - insert course_video fail sql[insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试02V1009','b66a053c6d540c8ef80fb969e745d9cb','b66a053c6d540c8ef80fb969e745d9cb',4,1234)]
+2016-10-09 10:22:51,441 - video_model.py:60 - error - 0
+2016-10-09 10:22:51,443 - video_model.py:62 - error - insert course_video fail sql[insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试03V1009','e5929093eeffb21151d232cb108d38a1','e5929093eeffb21151d232cb108d38a1',4,1234)]
+2016-10-09 10:39:23,226 - video_model.py:58 - error - insert course_video has error[(1062, "Duplicate entry 'e5929093eeffb21151d232cb108d38a1-0-4' for key 'PRIMARY'")].sql[insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试03V1009','e5929093eeffb21151d232cb108d38a1','e5929093eeffb21151d232cb108d38a1',4,1234)]
+2016-10-09 10:39:49,776 - video_model.py:58 - error - insert course_video has error[(1062, "Duplicate entry 'e5929093eeffb21151d232cb108d38a1-0-4' for key 'PRIMARY'")].sql[insert into course_video(video_image,status,title,video_id,course_id,seq_no,duration) VALUE ('http://',1,'娄永锋-测试03V1009','e5929093eeffb21151d232cb108d38a1','e5929093eeffb21151d232cb108d38a1',4,1234)]
+2016-10-11 09:22:28,382 - update_course.py:151 - error - update course v2_introduce, course_id[db3faf770ceb34b2966ffbc4f3c36eb6]
+2016-10-11 09:29:09,779 - course_model.py:102 - error - update course has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'strategy='http://yxs-pic.oss-cn-beijing.aliyuncs.com/ff443157db570f891f2cd3eb1ee' at line 1")].sql[update course set title='《颠覆式创新》--测试1'strategy='http://yxs-pic.oss-cn-beijing.aliyuncs.com/ff443157db570f891f2cd3eb1eedf9bf' where course_id='db3faf770ceb34b2966ffbc4f3c36eb6']
+2016-10-11 09:33:46,523 - course_model.py:102 - error - update course has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'strategy='http://yxs-pic.oss-cn-beijing.aliyuncs.com/ff443157db570f891f2cd3eb1ee' at line 1")].sql[update course set title='《颠覆式创新》--测试1'strategy='http://yxs-pic.oss-cn-beijing.aliyuncs.com/ff443157db570f891f2cd3eb1eedf9bf' where course_id='db3faf770ceb34b2966ffbc4f3c36eb6']
+2016-10-11 09:43:37,436 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'db3faf770ceb34b2966ffbc4f3c36eb6' in 'where clause'")].sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[89, 89, 89]}' where course_id=db3faf770ceb34b2966ffbc4f3c36eb6]
+2016-10-11 09:43:37,608 - course_model.py:105 - error - update course fail sql[update course set only_yanzhi=0 where course_id='db3faf770ceb34b2966ffbc4f3c36eb6']
+2016-10-11 09:44:40,563 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'db3faf770ceb34b2966ffbc4f3c36eb6' in 'where clause'")].sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[89, 89, 89]}' where course_id=db3faf770ceb34b2966ffbc4f3c36eb6]
+2016-10-11 09:45:34,615 - course_model.py:105 - error - update course fail sql[update course set only_yanzhi=1 where course_id='db3faf770ceb34b2966ffbc4f3c36eb6']
+2016-10-12 19:14:09,318 - get_course_list.py:105 - error - 32
+2016-10-12 19:14:09,371 - get_course_list.py:105 - error - 8
+2016-10-12 19:14:09,371 - get_course_list.py:105 - error - 68
+2016-10-12 19:14:09,371 - get_course_list.py:105 - error - 68
+2016-10-12 19:14:09,371 - get_course_list.py:105 - error - 32
+2016-10-12 19:14:09,372 - get_course_list.py:105 - error - 32
+2016-10-12 19:14:09,372 - get_course_list.py:105 - error - 96
+2016-10-12 19:14:09,374 - get_course_list.py:105 - error - 32
+2016-10-12 19:14:09,374 - get_course_list.py:105 - error - 96
+2016-10-12 19:14:09,374 - get_course_list.py:105 - error - 32
+2016-10-12 19:20:55,854 - course_model.py:57 - error - select course table has error[not enough arguments for format string]
+2016-10-12 19:20:55,855 - course_model.py:57 - error - select course table has error[not enough arguments for format string]
+2016-10-12 19:26:02,763 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:02,765 - get_course_list.py:105 - error - 8
+2016-10-12 19:26:02,765 - get_course_list.py:105 - error - 68
+2016-10-12 19:26:02,765 - get_course_list.py:105 - error - 68
+2016-10-12 19:26:02,765 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:02,765 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:02,766 - get_course_list.py:105 - error - 96
+2016-10-12 19:26:02,766 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:02,766 - get_course_list.py:105 - error - 96
+2016-10-12 19:26:02,766 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:03,940 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:03,940 - get_course_list.py:105 - error - 8
+2016-10-12 19:26:03,940 - get_course_list.py:105 - error - 68
+2016-10-12 19:26:03,940 - get_course_list.py:105 - error - 68
+2016-10-12 19:26:03,940 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:03,940 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:03,940 - get_course_list.py:105 - error - 96
+2016-10-12 19:26:03,941 - get_course_list.py:105 - error - 32
+2016-10-12 19:26:03,941 - get_course_list.py:105 - error - 96
+2016-10-12 19:26:03,941 - get_course_list.py:105 - error - 32
+2016-10-12 19:27:12,361 - course_model.py:57 - error - select course table has error[not enough arguments for format string]
+2016-10-12 19:27:12,361 - course_model.py:57 - error - select course table has error[not enough arguments for format string]
+2016-10-12 19:27:12,362 - course_model.py:57 - error - select course table has error[not enough arguments for format string]
+2016-10-12 19:30:29,687 - course_model.py:57 - error - select course table has error[not enough arguments for format string].sql[select * from course where title like '%小马宋%' ORDER BY create_time DESC limit 20, 10]
+2016-10-12 19:30:29,688 - course_model.py:57 - error - select course table has error[not enough arguments for format string].sql[select * from course where title like '%小马宋%']
+2016-10-12 19:30:29,690 - course_model.py:57 - error - select course table has error[not enough arguments for format string].sql[select * from course where title like '%小马宋%']
+2016-10-12 19:37:58,627 - get_course_list.py:92 - error - 68
+2016-10-12 19:37:58,628 - get_course_list.py:92 - error - 96
+2016-10-12 19:37:58,628 - get_course_list.py:92 - error - 32
+2016-10-14 09:27:17,084 - login.py:29 - error - 非法参数 admin_passwd[]
+2016-10-14 10:45:17,943 - admin_model.py:23 - error - select table admin has error[(2006, 'MySQL server has gone away')]
+2016-10-15 10:19:26,071 - update_pwd.py:36 - error - param old_pwd invalid
+2016-10-15 10:19:46,111 - update_pwd.py:36 - error - param old_pwd invalid
+2016-10-15 10:20:06,017 - update_pwd.py:36 - error - param old_pwd invalid
+2016-10-15 10:22:20,851 - update_pwd.py:36 - error - param old_pwd invalid
+2016-10-15 10:22:45,792 - update_pwd.py:36 - error - param old_pwd invalid
+2016-10-15 10:23:02,907 - update_pwd.py:36 - error - param old_pwd invalid
+2016-10-15 10:34:14,088 - update_course.py:163 - error - update course v2_introduce, course_id[01a3a62fb752a94f6e8555d506a69f2c]
+2016-10-15 10:34:14,118 - update_course.py:163 - error - update course v2_introduce, course_id[01a3a62fb752a94f6e8555d506a69f2c]
+2016-10-15 10:34:14,161 - util_method.py:47 - error - the only_yanzhi is invalid only_yanzhi[研值课]
+2016-10-15 10:59:52,930 - util_method.py:55 - error - the only_yanzhi is invalid only_yanzhi[研值课]
+2016-10-15 10:59:52,934 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[89, 89, 89]}' where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-15 11:01:43,384 - util_method.py:57 - error - the only_yanzhi is invalid only_yanzhi[研值课]
+2016-10-15 11:01:43,391 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[89, 89, 89]}' where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-15 11:01:43,398 - course_model.py:105 - error - update course fail sql[update course set status=32,display_time='234分钟',only_yanzhi=32,title='梁宁：产品经理的必修课',cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/c9eacb0c12590cc8f2b11fc1a6cac966',state=32 where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-15 11:05:58,252 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[89, 89, 89]}' where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-15 11:05:58,263 - course_model.py:105 - error - update course fail sql[update course set status=32,display_time='234分钟',only_yanzhi=32,title='梁宁：产品经理的必修课',cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/c9eacb0c12590cc8f2b11fc1a6cac966',state=32 where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-15 11:09:48,029 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[89, 89, 89]}' where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 09:52:15,897 - update_course.py:163 - error - update course v2_introduce, course_id[01a3a62fb752a94f6e8555d506a69f2c]
+2016-10-17 09:52:15,971 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[89, 89, 89]}' where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 09:52:15,979 - course_model.py:105 - error - update course fail sql[update course set status=32,display_time='333分钟',only_yanzhi=32,title='梁宁：产品经理的必修课',cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/c9eacb0c12590cc8f2b11fc1a6cac966',state=32 where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 09:54:38,234 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[89, 89, 89]}' where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 09:54:38,240 - course_model.py:105 - error - update course fail sql[update course set status=32,display_time='333分钟',only_yanzhi=32,title='梁宁：产品经理的必修课',cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/c9eacb0c12590cc8f2b11fc1a6cac966',state=32 where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 09:58:26,573 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[89, 89, 89]}' where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 09:58:26,605 - course_model.py:105 - error - update course fail sql[update course set status=32,display_time='333分钟',only_yanzhi=32,title='梁宁：产品经理的必修课',cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/c9eacb0c12590cc8f2b11fc1a6cac966',state=32 where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 09:59:02,438 - course_model.py:105 - error - update course fail sql[update course set status=32,display_time='333分钟',only_yanzhi=32,title='梁宁：产品经理的必修课',cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/c9eacb0c12590cc8f2b11fc1a6cac966',state=32 where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 11:11:35,299 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[8, 8, 8]}' where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 11:11:35,306 - course_model.py:105 - error - update course fail sql[update course set status=32,display_time='333分钟',only_yanzhi=32,title='梁宁：产品经理的必修课',cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/c9eacb0c12590cc8f2b11fc1a6cac966',state=32 where course_id='01a3a62fb752a94f6e8555d506a69f2c']
+2016-10-17 11:12:07,714 - util_method.py:33 - error - the type is invalid type[大课回放]
+2016-10-17 11:12:07,716 - add_course.py:70 - error - get price has error['builtin_function_or_method' object has no attribute '__getitem__']
+2016-10-17 11:15:17,950 - add_course.py:55 - error - <type 'unicode'>
+2016-10-17 11:15:17,950 - util_method.py:33 - error - the type is invalid type[大课回放]
+2016-10-17 11:15:17,950 - add_course.py:71 - error - get price has error['builtin_function_or_method' object has no attribute '__getitem__']
+2016-10-17 11:16:46,220 - add_course.py:55 - error - <type 'unicode'>
+2016-10-17 11:16:46,221 - add_course.py:71 - error - get price has error['builtin_function_or_method' object has no attribute '__getitem__']
+2016-10-17 12:20:08,819 - course_teacher.py:24 - error - update course_teacher has error[(2013, 'Lost connection to MySQL server during query')].sql[update course_teacher set status = 0 where course_id = '2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:20:10,657 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:20:11,566 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:22:11,140 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:23:35,805 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:23:35,806 - util_method.py:44 - error - the type is invalid type[显示]
+2016-10-17 12:25:07,200 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:25:07,200 - util_method.py:44 - error - the type is invalid type[显示]
+2016-10-17 12:26:02,867 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:26:02,868 - util_method.py:44 - error - the type is invalid type[显示]
+2016-10-17 12:28:05,053 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:28:05,055 - util_method.py:44 - error - the type is invalid type[显示]
+2016-10-17 12:28:48,954 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:28:48,956 - util_method.py:44 - error - the type is invalid type[显示]
+2016-10-17 12:30:18,338 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:30:18,338 - util_method.py:45 - error - the type is invalid type[显示]
+2016-10-17 12:31:02,854 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:31:02,855 - util_method.py:45 - error - the type is invalid type[显示]
+2016-10-17 12:31:50,693 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:31:50,700 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',vphoto_id='',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',state=32,strategy='',strategy_image='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:34:10,165 - util_method.py:21 - error - has error
+2016-10-17 12:39:31,976 - util_method.py:21 - error - has error
+2016-10-17 12:39:41,388 - util_method.py:21 - error - has error
+2016-10-17 12:39:49,546 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:39:49,546 - util_method.py:21 - error - has error
+2016-10-17 12:40:36,974 - util_method.py:23 - error - has error
+2016-10-17 12:40:45,201 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:40:45,201 - util_method.py:23 - error - has error
+2016-10-17 12:44:29,719 - util_method.py:23 - error - has error
+2016-10-17 12:44:42,440 - update_course.py:165 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-17 12:44:42,479 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:44:42,480 - util_method.py:23 - error - has error
+2016-10-17 12:47:59,088 - update_course.py:165 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-17 12:47:59,138 - update_course.py:165 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-17 12:47:59,170 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 12:47:59,170 - util_method.py:23 - error - has error
+2016-10-17 12:50:44,250 - update_course.py:165 - error - update course v2_introduce, course_id[50c66e2391783371797ece8f93eec46d]
+2016-10-17 12:50:44,321 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='50c66e2391783371797ece8f93eec46d']
+2016-10-17 12:50:44,322 - util_method.py:23 - error - has error
+2016-10-17 12:50:57,687 - course_teacher.py:24 - error - update course_teacher has error[(1048, "Column 'teacher_id' cannot be null")].sql[insert into course_teacher (teacher_id, course_id) VALUE (%s, %s) ON DUPLICATE KEY UPDATE status = 1]
+2016-10-17 12:57:32,186 - update_course.py:165 - error - update course v2_introduce, course_id[a32311d3d88998c91532962386828779]
+2016-10-17 12:57:32,503 - util_method.py:23 - error - has error
+2016-10-17 12:58:17,895 - course_teacher.py:24 - error - update course_teacher has error[(1048, "Column 'teacher_id' cannot be null")].sql[insert into course_teacher (teacher_id, course_id) VALUE (%s, %s) ON DUPLICATE KEY UPDATE status = 1]
+2016-10-17 12:59:19,865 - update_course.py:165 - error - update course v2_introduce, course_id[7b48ab4d6ce7de422f40a5485580a7df]
+2016-10-17 12:59:20,176 - util_method.py:21 - error - has error
+2016-10-17 12:59:20,184 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='3分钟',only_yanzhi=0,title='吴军：摩尔定律改变思维方式',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/ba23748d5eea96b76dabc7d418a93c57',vphoto_id='',state=None,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/ba23748d5eea96b76dabc7d418a93c57',strategy_image='',strategy='',type='精品课' where course_id='7b48ab4d6ce7de422f40a5485580a7df']
+2016-10-17 12:59:54,256 - update_course.py:165 - error - update course v2_introduce, course_id[07e6d7236b84397f10662e5c2096d5fe]
+2016-10-17 12:59:54,697 - util_method.py:21 - error - has error
+2016-10-17 12:59:54,707 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='778分钟',only_yanzhi=0,title='李善友《认知革命》课程回放（开始连载）',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/e9752a344e23097eae84865f200b5da5',vphoto_id='',state=None,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/e9752a344e23097eae84865f200b5da5',strategy_image='',strategy='',type='大课回放' where course_id='07e6d7236b84397f10662e5c2096d5fe']
+2016-10-17 13:00:22,028 - update_course.py:165 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-17 13:00:22,125 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 13:00:22,125 - util_method.py:21 - error - has error
+2016-10-17 13:00:22,134 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',vphoto_id='',state=None,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 13:00:39,655 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 13:00:39,657 - util_method.py:21 - error - has error
+2016-10-17 13:00:39,667 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',vphoto_id='',state=None,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 13:00:52,282 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 13:00:52,282 - util_method.py:21 - error - has error
+2016-10-17 13:00:52,289 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',vphoto_id='',state=None,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 13:16:09,269 - util_method.py:21 - error - has error
+2016-10-17 13:16:09,270 - add_course.py:70 - error - get price has error['builtin_function_or_method' object has no attribute '__getitem__']
+2016-10-17 13:18:40,385 - util_method.py:21 - error - has error
+2016-10-17 13:18:40,385 - add_course.py:73 - error - get price has error['builtin_function_or_method' object has no attribute '__getitem__']
+2016-10-17 13:21:53,132 - update_course.py:165 - error - update course v2_introduce, course_id[4f892267fffadf8766bd5105c75bf360]
+2016-10-17 13:21:53,207 - util_method.py:21 - error - has error
+2016-10-17 13:21:53,216 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='176分钟',only_yanzhi=0,title='社交是产品的必经之路',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/28e9e227ba0ec89fcc6f6d751596a013',vphoto_id='',state=None,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/28e9e227ba0ec89fcc6f6d751596a013',strategy_image='',strategy='',type='大课回放' where course_id='4f892267fffadf8766bd5105c75bf360']
+2016-10-17 14:02:50,713 - course_model.py:57 - error - select course table has error[(2013, 'Lost connection to MySQL server during query')].sql[select * from course where course_id = '2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 14:17:21,720 - util_method.py:21 - error - has error
+2016-10-17 14:17:21,720 - add_course.py:73 - error - get price has error['builtin_function_or_method' object has no attribute '__getitem__']
+2016-10-17 14:19:03,917 - util_method.py:21 - error - has error
+2016-10-17 14:19:03,959 - course_model.py:145 - error - insert course has error[global name 'venue' is not defined].sql[insert into course (course_id, title, cover_image, type, state, price, only_yanzhi, introduce, v2_introduce, display_time, ask, status, vphoto_id, strategy, strategy_image, venue) value(%s,%s,%s,%d,%d,%s,%d,%s,%s,%s,%s,%d,%s,%s,%s,%s)]
+2016-10-17 14:21:41,059 - util_method.py:21 - error - has error
+2016-10-17 14:21:41,075 - course_model.py:145 - error - insert course has error[%d format: a number is required, not str].sql[insert into course (course_id, title, cover_image, type, state, price, only_yanzhi, introduce, v2_introduce, display_time, ask, status, vphoto_id, strategy, strategy_image, venue) value(%s,%s,%s,%d,%d,%s,%d,%s,%s,%s,%s,%d,%s,%s,%s,%s)]
+2016-10-17 14:25:57,298 - util_method.py:21 - error - has error
+2016-10-17 14:25:57,325 - course_model.py:149 - error - insert course has error[%d format: a number is required, not str].sql[insert into course (course_id, title, cover_image, type, state, price, only_yanzhi, introduce, v2_introduce, display_time, ask, status, vphoto_id, strategy, strategy_image, venue) value(%s,%s,%s,%d,%d,%s,%d,%s,%s,%s,%s,%d,%s,%s,%s,%s)]
+2016-10-17 14:27:39,328 - course_model.py:149 - error - insert course has error[%d format: a number is required, not str].sql[insert into course (course_id, title, cover_image, type, state, price, only_yanzhi, introduce, v2_introduce, display_time, ask, status, vphoto_id, strategy, strategy_image, venue) value(%s,%s,%s,%d,%d,%s,%d,%s,%s,%s,%s,%d,%s,%s,%s,%s)]
+2016-10-17 14:28:37,664 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 14:28:37,664 - util_method.py:21 - error - has error
+2016-10-17 14:28:37,671 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',vphoto_id='',state=None,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 14:29:41,959 - course_model.py:149 - error - insert course has error[%d format: a number is required, not str].sql[insert into course (course_id, title, cover_image, type, state, price, only_yanzhi, introduce, v2_introduce, display_time, ask, status, vphoto_id, strategy, strategy_image, venue) value(%s,%s,%s,%d,%d,%s,%d,%s,%s,%s,%s,%d,%s,%s,%s,%s)]
+2016-10-17 14:32:06,657 - course_model.py:149 - error - insert course has error[%d format: a number is required, not str].sql[insert into course (course_id, title, cover_image, type, state, price, only_yanzhi, introduce, v2_introduce, display_time, ask, status, vphoto_id, strategy, strategy_image, venue) value(%s,%s,%s,%d,%d,%s,%d,%s,%s,%s,%s,%d,%s,%s,%s,%s)]
+2016-10-17 14:35:53,473 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 14:35:53,486 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 14:36:35,920 - course_teacher.py:15 - error - insert course_teacher has error[(1062, "Duplicate entry '1a8d7706f0a9810ae1372bb844da83dd-be11afed12924ea132835f91bfc55a2' for key 'PRIMARY'")].sql[insert into course_teacher (teacher_id, course_id) value (%s, %s)]
+2016-10-17 14:38:21,500 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='140分钟',only_yanzhi=0,title='齐俊元：我想打造一家伟大的企业',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/654e79c486dd281f42e0a9332fddc021',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/654e79c486dd281f42e0a9332fddc021',strategy_image='',strategy='',type='精品课' where course_id='5baa3e8d3a3c7df66c27da2df6e4ebb6']
+2016-10-17 14:39:06,887 - update_course.py:165 - error - update course v2_introduce, course_id[3140f100348347a04eecccb6c487c9bf]
+2016-10-17 14:39:07,176 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[59, 59, 59]}' where course_id='3140f100348347a04eecccb6c487c9bf']
+2016-10-17 14:39:07,181 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='136分钟',only_yanzhi=1,title='王信文：创新产品的灵感和方法论',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/776406180b6f78ba5b6e892f839ff9c3',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/776406180b6f78ba5b6e892f839ff9c3',strategy_image='',strategy='',type='大课回放' where course_id='3140f100348347a04eecccb6c487c9bf']
+2016-10-17 14:40:58,687 - update_course.py:165 - error - update course v2_introduce, course_id[6ae2171880e69260c306d445fe5551df]
+2016-10-17 14:40:58,782 - video_model.py:46 - error - update course_video has error[(1062, "Duplicate entry '6ae2171880e69260c306d445fe5551df-0-12' for key 'PRIMARY'")].sql[update course_video set course_id = '6ae2171880e69260c306d445fe5551df',status = 1 where video_id in ('473899050','145096817','982976985','129891460','319864345','938372137','437144254')]
+2016-10-17 14:40:58,792 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[19, 19, 19]}' where course_id='6ae2171880e69260c306d445fe5551df']
+2016-10-17 14:40:58,799 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='192分钟',only_yanzhi=1,title='李玥：超越“大数据”',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/a9cc661f8aa02147df0035504061d073',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/a9cc661f8aa02147df0035504061d073',strategy_image='',strategy='',type='大课回放' where course_id='6ae2171880e69260c306d445fe5551df']
+2016-10-17 14:41:09,749 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='10/29/09:00-18:15',only_yanzhi=0,videos='[]',title='大课预告：工具类应用产品的突围之道',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',vphoto_id='',state=1,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',strategy_image='',strategy='',type='现场大课' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 14:54:13,882 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 14:54:13,924 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-17 14:55:02,773 - update_course.py:165 - error - update course v2_introduce, course_id[1a8d7706f0a9810ae1372bb844da83dd]
+2016-10-17 14:55:02,832 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 14:55:02,838 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',vphoto_id='',state=4,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 14:55:08,381 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 14:55:08,388 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',vphoto_id='',state=4,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 14:58:15,334 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 14:58:15,345 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',vphoto_id='',state=4,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 15:16:11,243 - update_course.py:165 - error - update course v2_introduce, course_id[fa33334d122d20b8c01b673adde6731a]
+2016-10-17 15:16:11,335 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='3分钟',only_yanzhi=0,title='李丰：商业逻辑变化来自于供给需求变化',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/ff719ef9a523d6f6cccf2b0cde9e883d',vphoto_id='',state=32,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/ff719ef9a523d6f6cccf2b0cde9e883d',strategy_image='',strategy='',type='精品课' where course_id='fa33334d122d20b8c01b673adde6731a']
+2016-10-17 15:57:12,227 - course_model.py:115 - error - course is exist: 脱不花：知识类内容创业的路与坑-测试 -> 1a8d7706f0a9810ae1372bb844da83dd
+2016-10-17 15:58:31,776 - course_model.py:115 - error - course is exist: 脱不花：知识类内容创业的路与坑-测试 -> 1a8d7706f0a9810ae1372bb844da83dd
+2016-10-17 16:02:26,164 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[0, 0, 0]}' where course_id='5baa3e8d3a3c7df66c27da2df6e4ebb6']
+2016-10-17 16:02:26,174 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='140分钟',only_yanzhi=0,title='齐俊元：我想打造一家伟大的企业',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/654e79c486dd281f42e0a9332fddc021',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/654e79c486dd281f42e0a9332fddc021',strategy_image='',strategy='',type='精品课' where course_id='5baa3e8d3a3c7df66c27da2df6e4ebb6']
+2016-10-17 16:02:36,141 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 16:02:36,148 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',vphoto_id='',state=4,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 16:02:49,025 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 16:02:49,035 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',vphoto_id='',state=4,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 16:04:58,803 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 16:04:58,809 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',vphoto_id='',state=4,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 16:14:40,463 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[19, 19, 19]}' where course_id='6ae2171880e69260c306d445fe5551df']
+2016-10-17 16:14:40,473 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='192分钟',only_yanzhi=1,videos='[]',title='李玥：超越“大数据”',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/a9cc661f8aa02147df0035504061d073',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0e0a533b08e14ccb8ee9faa0e85eadad',strategy_image='',strategy='',type='大课回放' where course_id='6ae2171880e69260c306d445fe5551df']
+2016-10-17 16:14:53,400 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 16:14:53,407 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',url='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',vphoto_id='',state=4,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/a3060cb4fe3174a5290aa623fd57d2e4',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 17:43:01,062 - course_model.py:57 - error - select course table has error[(2013, 'Lost connection to MySQL server during query')].sql[select * from course where course_id = '3140f100348347a04eecccb6c487c9bf']
+2016-10-17 19:03:19,719 - course_model.py:57 - error - select course table has error[(2013, 'Lost connection to MySQL server during query')].sql[select * from course where course_id = '904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:03:51,726 - video_model.py:46 - error - update course_video has error[(1062, "Duplicate entry '70bf6d93a9fc6701bad0dfdaddacb13b-0-13' for key 'PRIMARY'")].sql[update course_video set course_id = '70bf6d93a9fc6701bad0dfdaddacb13b',status = 1 where video_id in ('481608205')]
+2016-10-17 19:03:51,733 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[2, 2, 2]}' where course_id='70bf6d93a9fc6701bad0dfdaddacb13b']
+2016-10-17 19:03:51,746 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='145分钟',only_yanzhi=1,title='周鸿祎：做一款好产品的六字法则',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/4b9638aaaf06f28095d37192ab262ea5',vphoto_id='',state=32,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/4b9638aaaf06f28095d37192ab262ea5',strategy_image='',strategy='',type='精品课' where course_id='70bf6d93a9fc6701bad0dfdaddacb13b']
+2016-10-17 19:04:12,973 - video_model.py:46 - error - update course_video has error[(1062, "Duplicate entry '904fa5e72193a0e2fc5096d1f28db8ae-0-9' for key 'PRIMARY'")].sql[update course_video set course_id = '904fa5e72193a0e2fc5096d1f28db8ae',status = 1 where video_id in ('481608205','930962425')]
+2016-10-17 19:04:12,983 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[0, 0, 0]}' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:04:12,997 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='10/29/09:00-18:15',only_yanzhi=0,title='大课预告：工具类应用产品的突围之道',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',vphoto_id='',state=1,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',strategy_image='',strategy='',type='现场大课' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:04:34,249 - video_model.py:46 - error - update course_video has error[(1062, "Duplicate entry '904fa5e72193a0e2fc5096d1f28db8ae-0-9' for key 'PRIMARY'")].sql[update course_video set course_id = '904fa5e72193a0e2fc5096d1f28db8ae',status = 1 where video_id in ('930962425')]
+2016-10-17 19:04:34,256 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[0, 0, 0]}' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:04:34,262 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='10/29/09:00-18:15',only_yanzhi=0,title='大课预告：工具类应用产品的突围之道',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',vphoto_id='',state=1,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',strategy_image='',strategy='',type='现场大课' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:04:50,924 - video_model.py:46 - error - update course_video has error[(1062, "Duplicate entry '904fa5e72193a0e2fc5096d1f28db8ae-0-11' for key 'PRIMARY'")].sql[update course_video set course_id = '904fa5e72193a0e2fc5096d1f28db8ae',status = 1 where video_id in ('107435579','465168579')]
+2016-10-17 19:04:50,931 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[0, 0, 0]}' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:04:50,938 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='10/29/09:00-18:15',only_yanzhi=0,title='大课预告：工具类应用产品的突围之道',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',vphoto_id='',state=1,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',strategy_image='',strategy='',type='现场大课' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:05:14,519 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='50c66e2391783371797ece8f93eec46d']
+2016-10-17 19:05:14,528 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='100分钟',only_yanzhi=0,title='刘祚宏：大搜车联合创始人、曾创办淘宝数据魔方',url='http://',vphoto_id='',state=32,teachers='[]',cover_image='http://',strategy_image='',strategy='',type='大课回放' where course_id='50c66e2391783371797ece8f93eec46d']
+2016-10-17 19:05:21,631 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='50c66e2391783371797ece8f93eec46d']
+2016-10-17 19:05:21,638 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='100分钟',only_yanzhi=0,title='刘祚宏：大搜车联合创始人、曾创办淘宝数据魔方',url='http://',vphoto_id='',state=32,cover_image='http://',strategy_image='',strategy='',type='大课回放' where course_id='50c66e2391783371797ece8f93eec46d']
+2016-10-17 19:05:34,469 - video_model.py:46 - error - update course_video has error[(1062, "Duplicate entry '904fa5e72193a0e2fc5096d1f28db8ae-0-9' for key 'PRIMARY'")].sql[update course_video set course_id = '904fa5e72193a0e2fc5096d1f28db8ae',status = 1 where video_id in ('930962425','249232162')]
+2016-10-17 19:05:34,477 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[0, 0, 0]}' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:05:34,484 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='10/29/09:00-18:15',only_yanzhi=0,title='大课预告：工具类应用产品的突围之道',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',vphoto_id='',state=1,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',strategy_image='',strategy='',type='现场大课' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:05:44,808 - video_model.py:46 - error - update course_video has error[(1062, "Duplicate entry '904fa5e72193a0e2fc5096d1f28db8ae-0-10' for key 'PRIMARY'")].sql[update course_video set course_id = '904fa5e72193a0e2fc5096d1f28db8ae',status = 1 where video_id in ('249232162')]
+2016-10-17 19:05:44,928 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[0, 0, 0]}' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:05:44,937 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='10/29/09:00-18:15',only_yanzhi=0,title='大课预告：工具类应用产品的突围之道',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',vphoto_id='',state=1,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/d70fc3d6ef5c2338e7608f1a925fa0c4',strategy_image='',strategy='',type='现场大课' where course_id='904fa5e72193a0e2fc5096d1f28db8ae']
+2016-10-17 19:05:59,724 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='50c66e2391783371797ece8f93eec46d']
+2016-10-17 19:05:59,734 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='100分钟',only_yanzhi=0,title='刘祚宏：大搜车联合创始人、曾创办淘宝数据魔方',url='http://',vphoto_id='',state=32,cover_image='http://',strategy_image='',strategy='',type='大课回放' where course_id='50c66e2391783371797ece8f93eec46d']
+2016-10-17 19:07:25,552 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[59, 59, 59]}' where course_id='3140f100348347a04eecccb6c487c9bf']
+2016-10-17 19:07:25,562 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'url' in 'field list'")].sql[update course set status=1,display_time='136分钟',only_yanzhi=1,title='王信文：创新产品的灵感和方法论',url='http://yxs-app.oss-cn-beijing.aliyuncs.com/776406180b6f78ba5b6e892f839ff9c3',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/776406180b6f78ba5b6e892f839ff9c3',strategy_image='',strategy='',type='大课回放' where course_id='3140f100348347a04eecccb6c487c9bf']
+2016-10-17 21:09:41,411 - course_model.py:57 - error - select course table has error[(2013, 'Lost connection to MySQL server during query')].sql[select * from course where course_id = '1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 21:11:13,812 - update_course.py:164 - error - update course v2_introduce, course_id[1a8d7706f0a9810ae1372bb844da83dd]
+2016-10-17 21:11:13,865 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 21:11:13,872 - course_model.py:102 - error - update course has error[(1366, "Incorrect integer value: '\xe5\xa4\xa7\xe8\xaf\xbe\xe5\x9b\x9e\xe6\x94\xbe' for column 'type' at row 1")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',vphoto_id='',state=4,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 21:12:30,457 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[19, 19, 19]}' where course_id='6ae2171880e69260c306d445fe5551df']
+2016-10-17 21:12:30,463 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'video_name' in 'field list'")].sql[update course set status=1,display_time='192分钟',only_yanzhi=1,title='李玥：超越“大数据”',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/a9cc661f8aa02147df0035504061d073',strategy_image='',strategy='',type='大课回放',video_name='李' where course_id='6ae2171880e69260c306d445fe5551df']
+2016-10-17 21:12:38,973 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[890000, 890000, 890000]}' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-17 21:12:38,979 - course_model.py:102 - error - update course has error[(1366, "Incorrect integer value: '\xe5\xa4\xa7\xe8\xaf\xbe\xe5\x9b\x9e\xe6\x94\xbe' for column 'type' at row 1")].sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试',vphoto_id='',state=4,cover_image='http://yxs-pic.oss-cn-beijing.aliyuncs.com/591209fcac5c027d34de5a2fc1b788e6',strategy_image='',strategy='',type='大课回放' where course_id='1a8d7706f0a9810ae1372bb844da83dd']
+2016-10-18 09:16:22,851 - update_course.py:164 - error - update course v2_introduce, course_id[99e277e0ab2bb03b9e6cb7c3588ceda0]
+2016-10-18 09:16:22,885 - update_course.py:164 - error - update course v2_introduce, course_id[99e277e0ab2bb03b9e6cb7c3588ceda0]
+2016-10-18 09:16:23,155 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[120000, 120000, 120000]}' where course_id='99e277e0ab2bb03b9e6cb7c3588ceda0']
+2016-10-18 09:16:23,163 - course_model.py:102 - error - update course has error[(1366, "Incorrect integer value: '\xe7\xba\xbf\xe4\xb8\x8a\xe5\xb0\x8f\xe8\xaf\xbe' for column 'type' at row 1")].sql[update course set status=0,display_time='123分钟',only_yanzhi=1,title='脱不花：知识类内容创业的路与坑-测试2',vphoto_id='',state=8,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/c86d0a93ae07f2dc9516e0a92a321da2',strategy_image='',strategy='',type='线上小课' where course_id='99e277e0ab2bb03b9e6cb7c3588ceda0']
+2016-10-18 10:10:07,513 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:10:07,520 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'video_name' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放',video_name='黄太' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:10:18,982 - update_course.py:164 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:10:19,026 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:10:19,032 - course_model.py:102 - error - update course has error[(1366, "Incorrect integer value: '\xe5\xa4\xa7\xe8\xaf\xbe\xe5\x9b\x9e\xe6\x94\xbe' for column 'type' at row 1")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:11:32,411 - update_course.py:164 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:11:32,924 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:11:32,933 - course_model.py:102 - error - update course has error[(1366, "Incorrect integer value: '\xe5\xa4\xa7\xe8\xaf\xbe\xe5\x9b\x9e\xe6\x94\xbe' for column 'type' at row 1")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:15:39,598 - update_course.py:165 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:15:39,628 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:15:39,628 - util_method.py:33 - error - the type is invalid type[大课回放]
+2016-10-18 10:15:39,634 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'tye' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试',tye='None',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:16:49,786 - update_course.py:165 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:16:49,826 - update_course.py:165 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:16:49,855 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:16:49,861 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'tye' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试',tye='100',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:19:05,450 - update_course.py:166 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:19:05,492 - update_course.py:166 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:19:05,516 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:19:05,523 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'tye' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试',tye='100',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:20:04,319 - update_course.py:167 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:20:04,378 - update_course.py:167 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:20:04,410 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:20:04,417 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'tye' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试',tye='100',vphoto_id='',state=32,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/72588b0a14415706ab45a77da63ae9ab',strategy_image='',strategy='',type='大课回放' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:21:10,293 - update_course.py:167 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:21:10,351 - update_course.py:167 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:21:10,592 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:25:05,964 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:25:19,882 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:25:31,545 - update_course.py:167 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:25:31,569 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:26:19,509 - course_teacher.py:24 - error - update course_teacher has error[(1048, "Column 'teacher_id' cannot be null")].sql[insert into course_teacher (teacher_id, course_id) VALUE (%s, %s) ON DUPLICATE KEY UPDATE status = 1]
+2016-10-18 10:30:56,369 - course_teacher.py:24 - error - update course_teacher has error[(1048, "Column 'teacher_id' cannot be null")].sql[insert into course_teacher (teacher_id, course_id) VALUE (%s, %s) ON DUPLICATE KEY UPDATE status = 1]
+2016-10-18 10:31:10,394 - update_course.py:117 - error - 5
+2016-10-18 10:31:10,394 - update_course.py:118 - error - 5
+2016-10-18 10:31:10,394 - update_course.py:119 - error - 5
+2016-10-18 10:31:10,404 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:31:10,411 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,videos='[]',title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=32,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='100' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:31:41,601 - update_course.py:117 - error - 12
+2016-10-18 10:31:41,601 - update_course.py:118 - error - 12
+2016-10-18 10:31:41,601 - update_course.py:119 - error - 12
+2016-10-18 10:33:14,572 - update_course.py:117 - error - 5
+2016-10-18 10:33:14,572 - update_course.py:118 - error - 5
+2016-10-18 10:33:14,572 - update_course.py:119 - error - 5
+2016-10-18 10:33:14,588 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[5, 5, 5]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:33:14,595 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,videos='[]',title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=32,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='100' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:33:29,756 - update_course.py:117 - error - 12
+2016-10-18 10:33:29,756 - update_course.py:118 - error - 12
+2016-10-18 10:33:29,756 - update_course.py:119 - error - 12
+2016-10-18 10:33:29,778 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,videos='[]',title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=32,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='100' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:34:36,296 - update_course.py:117 - error - 12
+2016-10-18 10:34:36,296 - update_course.py:118 - error - 12
+2016-10-18 10:34:36,296 - update_course.py:119 - error - 12
+2016-10-18 10:34:36,305 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:34:36,312 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,videos='[]',title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=32,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='0' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:34:46,107 - update_course.py:117 - error - 12
+2016-10-18 10:34:46,107 - update_course.py:118 - error - 12
+2016-10-18 10:34:46,107 - update_course.py:119 - error - 12
+2016-10-18 10:34:46,115 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:34:46,122 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,videos='[]',title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=32,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='101' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:35:04,951 - update_course.py:117 - error - 12
+2016-10-18 10:35:04,951 - update_course.py:118 - error - 12
+2016-10-18 10:35:04,951 - update_course.py:119 - error - 12
+2016-10-18 10:35:04,960 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:35:04,970 - course_model.py:102 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='158分钟',only_yanzhi=1,videos='[]',title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=32,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='0' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:35:50,987 - update_course.py:117 - error - 12
+2016-10-18 10:35:50,989 - update_course.py:118 - error - 12
+2016-10-18 10:35:50,989 - update_course.py:119 - error - 12
+2016-10-18 10:35:50,996 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:36:00,753 - update_course.py:117 - error - 12
+2016-10-18 10:36:00,753 - update_course.py:118 - error - 12
+2016-10-18 10:36:00,753 - update_course.py:119 - error - 12
+2016-10-18 10:36:00,757 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:36:11,351 - update_course.py:117 - error - 12
+2016-10-18 10:36:11,351 - update_course.py:118 - error - 12
+2016-10-18 10:36:11,352 - update_course.py:119 - error - 12
+2016-10-18 10:36:11,361 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:36:18,493 - update_course.py:117 - error - 12
+2016-10-18 10:36:18,494 - update_course.py:118 - error - 12
+2016-10-18 10:36:18,494 - update_course.py:119 - error - 12
+2016-10-18 10:36:18,500 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:38:04,811 - update_course.py:170 - error - update course v2_introduce, course_id[2d771993703a9c8b1a1f1e263a69636e]
+2016-10-18 10:38:04,854 - update_course.py:117 - error - 12
+2016-10-18 10:38:04,854 - update_course.py:118 - error - 12
+2016-10-18 10:38:04,854 - update_course.py:119 - error - 12
+2016-10-18 10:38:04,859 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:38:04,865 - course_model.py:105 - error - update course fail sql[update course set status=1,display_time='158分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=64,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='101' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:38:34,644 - update_course.py:117 - error - 1200
+2016-10-18 10:38:34,644 - update_course.py:118 - error - 1200
+2016-10-18 10:38:34,644 - update_course.py:119 - error - 1200
+2016-10-18 10:38:47,869 - update_course.py:117 - error - 12
+2016-10-18 10:38:47,871 - update_course.py:118 - error - 12
+2016-10-18 10:38:47,871 - update_course.py:119 - error - 12
+2016-10-18 10:38:57,848 - update_course.py:117 - error - 12
+2016-10-18 10:38:57,848 - update_course.py:118 - error - 12
+2016-10-18 10:38:57,848 - update_course.py:119 - error - 12
+2016-10-18 10:38:57,855 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:39:04,760 - update_course.py:117 - error - 12
+2016-10-18 10:39:04,760 - update_course.py:118 - error - 12
+2016-10-18 10:39:04,760 - update_course.py:119 - error - 12
+2016-10-18 10:39:04,766 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:39:22,118 - update_course.py:117 - error - 12
+2016-10-18 10:39:22,118 - update_course.py:118 - error - 12
+2016-10-18 10:39:22,118 - update_course.py:119 - error - 12
+2016-10-18 10:39:22,125 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:39:22,131 - course_model.py:105 - error - update course fail sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=64,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='101' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:47:22,973 - util_method.py:33 - error - the type is invalid type[线上小课]
+2016-10-18 10:47:22,973 - add_course.py:76 - error - the param introduce invalid
+2016-10-18 10:47:31,723 - util_method.py:33 - error - the type is invalid type[线上小课]
+2016-10-18 10:49:37,595 - util_method.py:33 - error - the type is invalid type[线上小课]
+2016-10-18 10:49:37,596 - add_course.py:76 - error - the param introduce invalid
+2016-10-18 10:51:36,154 - add_course.py:32 - error - {"videos":["453676517"],"teachers":["cc7596faee09fb651c0058c789b1f04e"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试03","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/b13e9c3ffbfab5cfe4525ec8e1868f39","type":"线上小课","state":"直播中","status":"显示"}
+2016-10-18 10:51:36,154 - util_method.py:33 - error - the type is invalid type[线上小课]
+2016-10-18 10:51:36,154 - add_course.py:77 - error - the param introduce invalid
+2016-10-18 10:51:50,176 - add_course.py:32 - error - {"videos":["219608697","453676517","534895974"],"teachers":["42ccf367d168b4fece2c5c0a765fa8a2","4c195b7a76bc87811d86576121e7f0f9"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"夏雪测试","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/befb56dc0b4bd3975a7b5b947d479345","type":"现场大课","state":"报名中","introduce":"长水机场世纪东方和v看第三方和v卡的事返回v空间第三方看v和电视剧方可v很多事恐惧。","status":"隐藏"}
+2016-10-18 10:51:50,177 - util_method.py:33 - error - the type is invalid type[现场大课]
+2016-10-18 10:54:32,927 - add_course.py:32 - error - {"videos":["652021979","534895974"],"teachers":["f56ba58041bc3432e8ce9d7820fb03a7","4c195b7a76bc87811d86576121e7f0f9"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"谢雪123","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/b0287a78cd3a6f0f659bc8a6a7d352f8","type":"现场大课","state":"预告","introduce":"哈大概会骄傲的三个爱的是嘎哈是给大家多撒谎个","status":"隐藏"}
+2016-10-18 10:54:32,927 - util_method.py:33 - error - the type is invalid type[现场大课]
+2016-10-18 10:55:57,742 - update_course.py:117 - error - 12
+2016-10-18 10:55:57,742 - update_course.py:118 - error - 12
+2016-10-18 10:55:57,742 - update_course.py:119 - error - 12
+2016-10-18 10:55:57,749 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"研值购买", "grade_price":[12, 12, 12]}' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:55:57,756 - course_model.py:105 - error - update course fail sql[update course set status=0,display_time='333分钟',only_yanzhi=1,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试test',vphoto_id='',state=64,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/0bcbc31975fe855062ca9b1e4ef779e9',strategy_image='',strategy='',type='101' where course_id='2d771993703a9c8b1a1f1e263a69636e']
+2016-10-18 10:57:32,233 - add_course.py:32 - error - {"videos":["491338527"],"teachers":["4c195b7a76bc87811d86576121e7f0f9"],"only_yanzhi":"非研值","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试04","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/9ca26d1ba8a52b5fc1c7ed54ce284c67","type":"大课回放","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 10:57:32,233 - util_method.py:33 - error - the type is invalid type[大课回放]
+2016-10-18 10:58:58,299 - add_course.py:32 - error - {"videos":[null],"teachers":[null],"only_yanzhi":"非研值","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试04","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/9ca26d1ba8a52b5fc1c7ed54ce284c67","type":"大课回放","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 10:58:58,299 - util_method.py:33 - error - the type is invalid type[大课回放]
+2016-10-18 11:03:21,956 - video_model.py:33 - error - get video list has error[(2013, 'Lost connection to MySQL server during query')].sql[select * from course_video order by create_time desc limit 0,10]
+2016-10-18 11:03:42,348 - video_model.py:39 - error - not found any video.sql[select * from course_video where title like '%%undefined%%' order by create_time desc limit 0,10]
+2016-10-18 11:03:54,802 - add_course.py:32 - error - {"videos":["930962425"],"teachers":["ab54d113cf54e917320303fe4cf99e79"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试05","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/5fb9c5f55a73fc66a835060a0e1c107a","type":"现场大课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"隐藏","video_name":"黄"}
+2016-10-18 11:03:54,802 - util_method.py:33 - error - the type is invalid type[现场大课]
+2016-10-18 11:03:54,822 - course_model.py:150 - error - insert course has error[%d format: a number is required, not NoneType]
+2016-10-18 11:05:39,503 - add_course.py:32 - error - {"videos":["330468271"],"teachers":["4c195b7a76bc87811d86576121e7f0f9","f56ba58041bc3432e8ce9d7820fb03a7"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"夏雪测试","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/f1af1b324c132163fb316d2028f1d8b0","type":"大课回放","state":"报名中","introduce":"法人和女款额外汇款金额为日后即可维护。","status":"显示","video_name":"老师"}
+2016-10-18 11:05:39,503 - util_method.py:33 - error - the type is invalid type[大课回放]
+2016-10-18 11:05:39,523 - course_model.py:150 - error - insert course has error[%d format: a number is required, not NoneType]
+2016-10-18 11:05:43,766 - add_course.py:32 - error - {"videos":[null],"teachers":[null,null],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"夏雪测试","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/f1af1b324c132163fb316d2028f1d8b0","type":"大课回放","state":"报名中","introduce":"法人和女款额外汇款金额为日后即可维护。","status":"显示","video_name":"老师"}
+2016-10-18 11:05:43,766 - util_method.py:33 - error - the type is invalid type[大课回放]
+2016-10-18 11:05:43,792 - course_model.py:150 - error - insert course has error[%d format: a number is required, not NoneType]
+2016-10-18 11:11:37,617 - add_course.py:32 - error - {"videos":["453676517"],"teachers":["cc7596faee09fb651c0058c789b1f04e"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试06","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/7468466e52f2dfe5277ed4f4cf5eb9d3","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 11:11:37,618 - util_method.py:33 - error - the type is invalid type[线上小课]
+2016-10-18 11:11:37,640 - course_model.py:140 - error - None
+2016-10-18 11:11:37,641 - course_model.py:141 - error - 8
+2016-10-18 11:11:37,641 - course_model.py:142 - error - 1
+2016-10-18 11:11:37,641 - course_model.py:143 - error - 0
+2016-10-18 11:11:37,641 - course_model.py:154 - error - insert course has error[%d format: a number is required, not NoneType]
+2016-10-18 11:21:42,516 - add_course.py:32 - error - {"videos":[null,"652021979"],"teachers":[null,"4c195b7a76bc87811d86576121e7f0f9"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试06","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/7468466e52f2dfe5277ed4f4cf5eb9d3","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 11:21:42,542 - course_model.py:140 - error - 1
+2016-10-18 11:21:42,542 - course_model.py:141 - error - 8
+2016-10-18 11:21:42,542 - course_model.py:142 - error - 1
+2016-10-18 11:21:42,542 - course_model.py:143 - error - 0
+2016-10-18 11:21:42,542 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:23:20,173 - add_course.py:32 - error - {"videos":["453676517"],"teachers":["42ccf367d168b4fece2c5c0a765fa8a2"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试07","traveller_price":"123","member_price":"123","common_price":"123","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/93fc0f838f2848fd545c52e8720e405c","type":"大课回放","state":"直播中","status":"显示"}
+2016-10-18 11:23:20,191 - course_model.py:140 - error - 100
+2016-10-18 11:23:20,193 - course_model.py:141 - error - 8
+2016-10-18 11:23:20,193 - course_model.py:142 - error - 1
+2016-10-18 11:23:20,193 - course_model.py:143 - error - 0
+2016-10-18 11:23:20,193 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:26:23,621 - add_course.py:32 - error - {"videos":["175289083"],"teachers":["f56ba58041bc3432e8ce9d7820fb03a7"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试07","traveller_price":"123","member_price":"123","common_price":"123","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/93fc0f838f2848fd545c52e8720e405c","type":"大课回放","state":"直播中","status":"显示"}
+2016-10-18 11:26:23,654 - course_model.py:140 - error - 40b7d8680aa1fdad50c7cf35c8c796eb
+2016-10-18 11:26:23,655 - course_model.py:141 - error - 赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试07
+2016-10-18 11:26:23,655 - course_model.py:142 - error - http://yxs-app.oss-cn-beijing.aliyuncs.com/93fc0f838f2848fd545c52e8720e405c
+2016-10-18 11:26:23,655 - course_model.py:143 - error - {"open_level":1, "desc":"研值购买", "grade_price":[12300, 12300, 12300]}
+2016-10-18 11:26:23,655 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:27:47,279 - add_course.py:32 - error - {"videos":["453676517"],"teachers":["ab54d113cf54e917320303fe4cf99e79"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试07","traveller_price":"123","member_price":"123","common_price":"123","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/93fc0f838f2848fd545c52e8720e405c","type":"大课回放","state":"直播中","status":"显示"}
+2016-10-18 11:27:47,296 - course_model.py:140 - error - <type 'str'>
+2016-10-18 11:27:47,296 - course_model.py:141 - error - <type 'unicode'>
+2016-10-18 11:27:47,296 - course_model.py:142 - error - <type 'unicode'>
+2016-10-18 11:27:47,296 - course_model.py:143 - error - <type 'str'>
+2016-10-18 11:27:47,296 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:29:44,434 - add_course.py:32 - error - {"videos":[null],"teachers":[null],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试07","traveller_price":"123","member_price":"123","common_price":"123","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/93fc0f838f2848fd545c52e8720e405c","type":"大课回放","state":"直播中","status":"显示"}
+2016-10-18 11:29:44,562 - course_model.py:140 - error - <type 'str'>
+2016-10-18 11:29:44,562 - course_model.py:141 - error - <type 'str'>
+2016-10-18 11:29:44,563 - course_model.py:142 - error - <type 'str'>
+2016-10-18 11:29:44,563 - course_model.py:143 - error - <type 'str'>
+2016-10-18 11:29:44,563 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:32:58,388 - add_course.py:32 - error - {"videos":["491338527"],"teachers":["4c195b7a76bc87811d86576121e7f0f9"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试8","traveller_price":"12","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/183b8027b70bacaf1d45ebb042ee9323","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"研值课","status":"显示"}
+2016-10-18 11:32:58,411 - course_model.py:140 - error - <type 'str'>
+2016-10-18 11:32:58,411 - course_model.py:141 - error - <type 'str'>
+2016-10-18 11:32:58,411 - course_model.py:142 - error - <type 'unicode'>
+2016-10-18 11:32:58,411 - course_model.py:143 - error - <type 'str'>
+2016-10-18 11:32:58,411 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:33:45,961 - add_course.py:32 - error - {"videos":[null],"teachers":[null],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试8","traveller_price":"12","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/183b8027b70bacaf1d45ebb042ee9323","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"研值课","status":"显示"}
+2016-10-18 11:33:45,993 - course_model.py:140 - error - <type 'str'>
+2016-10-18 11:33:45,996 - course_model.py:141 - error - <type 'str'>
+2016-10-18 11:33:45,997 - course_model.py:142 - error - <type 'str'>
+2016-10-18 11:33:45,997 - course_model.py:143 - error - <type 'str'>
+2016-10-18 11:33:45,997 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:36:26,446 - add_course.py:32 - error - {"videos":["219608697"],"teachers":["ab54d113cf54e917320303fe4cf99e79"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试09","traveller_price":"4","member_price":"6","common_price":"7","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/bc0d973d25e6966b0c04269cc2230c4d","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"研值课","status":"隐藏"}
+2016-10-18 11:36:26,467 - course_model.py:140 - error - <type 'unicode'>
+2016-10-18 11:36:26,467 - course_model.py:141 - error - <type 'unicode'>
+2016-10-18 11:36:26,467 - course_model.py:142 - error - <type 'unicode'>
+2016-10-18 11:36:26,467 - course_model.py:143 - error - <type 'str'>
+2016-10-18 11:36:26,467 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:37:38,736 - add_course.py:32 - error - {"videos":["175289083"],"teachers":["cc7596faee09fb651c0058c789b1f04e"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试09","traveller_price":"4","member_price":"6","common_price":"7","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/bc0d973d25e6966b0c04269cc2230c4d","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"研值课","status":"隐藏"}
+2016-10-18 11:37:38,861 - course_model.py:140 - error - <type 'str'>
+2016-10-18 11:37:38,861 - course_model.py:141 - error - <type 'str'>
+2016-10-18 11:37:38,861 - course_model.py:142 - error - <type 'str'>
+2016-10-18 11:37:38,861 - course_model.py:143 - error - <type 'str'>
+2016-10-18 11:37:38,861 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:38:43,779 - add_course.py:32 - error - {"videos":["652021979"],"teachers":["42ccf367d168b4fece2c5c0a765fa8a2"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试09","traveller_price":"4","member_price":"6","common_price":"7","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/bc0d973d25e6966b0c04269cc2230c4d","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"研值课","status":"隐藏"}
+2016-10-18 11:38:43,806 - course_model.py:140 - error - <type 'str'>
+2016-10-18 11:38:43,808 - course_model.py:141 - error - <type 'str'>
+2016-10-18 11:38:43,808 - course_model.py:142 - error - <type 'str'>
+2016-10-18 11:38:43,808 - course_model.py:143 - error - <type 'str'>
+2016-10-18 11:38:43,808 - course_model.py:154 - error - insert course has error[not all arguments converted during string formatting]
+2016-10-18 11:40:53,227 - add_course.py:32 - error - {"videos":["219608697"],"teachers":["4c195b7a76bc87811d86576121e7f0f9"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试09","traveller_price":"4","member_price":"6","common_price":"7","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/bc0d973d25e6966b0c04269cc2230c4d","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"研值课","status":"隐藏"}
+2016-10-18 11:40:53,259 - course_model.py:140 - error - <type 'str'>
+2016-10-18 11:40:53,259 - course_model.py:141 - error - <type 'str'>
+2016-10-18 11:40:53,259 - course_model.py:142 - error - <type 'str'>
+2016-10-18 11:40:53,259 - course_model.py:143 - error - <type 'str'>
+2016-10-18 11:40:53,259 - course_model.py:152 - error - insert course has error[%d format: a number is required, not str]
+2016-10-18 11:42:22,502 - add_course.py:32 - error - {"videos":["453676517"],"teachers":["cc7596faee09fb651c0058c789b1f04e"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试09","traveller_price":"4","member_price":"6","common_price":"7","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/bc0d973d25e6966b0c04269cc2230c4d","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"研值课","status":"隐藏"}
+2016-10-18 11:42:22,529 - course_model.py:140 - error - <type 'int'>
+2016-10-18 11:42:22,529 - course_model.py:141 - error - <type 'int'>
+2016-10-18 11:42:22,529 - course_model.py:142 - error - <type 'int'>
+2016-10-18 11:42:22,530 - course_model.py:143 - error - <type 'int'>
+2016-10-18 11:42:22,530 - course_model.py:152 - error - insert course has error[%d format: a number is required, not str]
+2016-10-18 11:43:10,371 - add_course.py:32 - error - {"videos":["491338527"],"teachers":["cc7596faee09fb651c0058c789b1f04e"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试09","traveller_price":"4","member_price":"6","common_price":"7","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/bc0d973d25e6966b0c04269cc2230c4d","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"研值课","status":"隐藏"}
+2016-10-18 11:43:10,394 - course_model.py:140 - error - <type 'int'>
+2016-10-18 11:43:10,394 - course_model.py:141 - error - <type 'int'>
+2016-10-18 11:43:10,394 - course_model.py:142 - error - <type 'int'>
+2016-10-18 11:43:10,394 - course_model.py:143 - error - <type 'int'>
+2016-10-18 11:43:10,394 - course_model.py:152 - error - insert course has error[%d format: a number is required, not str]
+2016-10-18 11:47:13,822 - add_course.py:32 - error - {"videos":[],"teachers":[],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"","title":"dvzdvf","traveller_price":"","member_price":"","common_price":"","status":"隐藏"}
+2016-10-18 11:47:13,822 - add_course.py:46 - error - the param cover_image invalid
+2016-10-18 11:47:26,420 - add_course.py:32 - error - {"videos":[],"teachers":[],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"","title":"dvzdvf","traveller_price":"","member_price":"","common_price":"","status":"隐藏","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/0ac8df54cb0e4f3cec928e0db0888e41"}
+2016-10-18 11:47:26,421 - add_course.py:53 - error - the param type invalid
+2016-10-18 11:47:40,220 - add_course.py:32 - error - {"videos":["219608697"],"teachers":["ab54d113cf54e917320303fe4cf99e79"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试10","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/ab444c12e69544c0aa5fc876c9682da7","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 11:47:40,256 - course_model.py:140 - error - <type 'int'>
+2016-10-18 11:47:40,256 - course_model.py:141 - error - <type 'int'>
+2016-10-18 11:47:40,256 - course_model.py:142 - error - <type 'int'>
+2016-10-18 11:47:40,256 - course_model.py:143 - error - <type 'int'>
+2016-10-18 11:47:40,256 - course_model.py:152 - error - insert course has error[%d format: a number is required, not str]
+2016-10-18 11:47:44,313 - add_course.py:32 - error - {"videos":[],"teachers":[],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"","title":"dvzdvf","traveller_price":"","member_price":"","common_price":"","status":"隐藏","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/0ac8df54cb0e4f3cec928e0db0888e41","type":"现场大课"}
+2016-10-18 11:47:44,315 - add_course.py:60 - error - the param state invalid
+2016-10-18 11:47:49,112 - add_course.py:32 - error - {"videos":[],"teachers":[],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"","title":"dvzdvf","traveller_price":"","member_price":"","common_price":"","status":"隐藏","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/0ac8df54cb0e4f3cec928e0db0888e41","type":"现场大课","state":"即将直播"}
+2016-10-18 11:47:49,114 - add_course.py:71 - error - get price has error[invalid literal for int() with base 10: '']
+2016-10-18 11:48:11,555 - add_course.py:32 - error - {"videos":[null],"teachers":[null],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试10","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/ab444c12e69544c0aa5fc876c9682da7","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 11:48:11,572 - course_model.py:140 - error - <type 'int'>
+2016-10-18 11:48:11,572 - course_model.py:141 - error - <type 'int'>
+2016-10-18 11:48:11,572 - course_model.py:142 - error - <type 'int'>
+2016-10-18 11:48:11,572 - course_model.py:143 - error - <type 'int'>
+2016-10-18 11:48:11,572 - course_model.py:152 - error - insert course has error[%d format: a number is required, not str]
+2016-10-18 11:48:15,559 - add_course.py:32 - error - {"videos":[],"teachers":[],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"","title":"dvzdvf","traveller_price":"123","member_price":"123","common_price":"123","status":"隐藏","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/0ac8df54cb0e4f3cec928e0db0888e41","type":"现场大课","state":"即将直播"}
+2016-10-18 11:48:15,559 - add_course.py:77 - error - the param introduce invalid
+2016-10-18 11:48:31,443 - add_course.py:32 - error - {"videos":[],"teachers":[],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"","title":"dvzdvf","traveller_price":"123","member_price":"123","common_price":"123","status":"隐藏","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/0ac8df54cb0e4f3cec928e0db0888e41","type":"现场大课","state":"即将直播","introduce":"链家地产劳动局零距离的时刻分局看代理费巨大垃圾V领但是开发局了电视剧的离开分局可怜的附件 "}
+2016-10-18 11:48:31,444 - add_course.py:92 - error - the param display_time invalid
+2016-10-18 11:48:42,440 - add_course.py:32 - error - {"videos":[],"teachers":[],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"dvzdvf","traveller_price":"123","member_price":"123","common_price":"123","status":"隐藏","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/0ac8df54cb0e4f3cec928e0db0888e41","type":"现场大课","state":"即将直播","introduce":"链家地产劳动局零距离的时刻分局看代理费巨大垃圾V领但是开发局了电视剧的离开分局可怜的附件 "}
+2016-10-18 11:48:42,441 - add_course.py:104 - error - param videos invalid
+2016-10-18 11:48:47,602 - add_course.py:32 - error - {"videos":["219608697"],"teachers":[],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"dvzdvf","traveller_price":"123","member_price":"123","common_price":"123","status":"隐藏","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/0ac8df54cb0e4f3cec928e0db0888e41","type":"现场大课","state":"即将直播","introduce":"链家地产劳动局零距离的时刻分局看代理费巨大垃圾V领但是开发局了电视剧的离开分局可怜的附件 "}
+2016-10-18 11:48:47,604 - add_course.py:111 - error - param teachers invalid
+2016-10-18 11:48:51,331 - add_course.py:32 - error - {"videos":[null],"teachers":["9a5587aef3e5f829791f8b6f6482fc0a"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"dvzdvf","traveller_price":"123","member_price":"123","common_price":"123","status":"隐藏","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/0ac8df54cb0e4f3cec928e0db0888e41","type":"现场大课","state":"即将直播","introduce":"链家地产劳动局零距离的时刻分局看代理费巨大垃圾V领但是开发局了电视剧的离开分局可怜的附件 "}
+2016-10-18 11:48:51,361 - course_model.py:140 - error - <type 'int'>
+2016-10-18 11:48:51,362 - course_model.py:141 - error - <type 'int'>
+2016-10-18 11:48:51,362 - course_model.py:142 - error - <type 'int'>
+2016-10-18 11:48:51,362 - course_model.py:143 - error - <type 'int'>
+2016-10-18 11:48:51,362 - course_model.py:152 - error - insert course has error[%d format: a number is required, not str]
+2016-10-18 11:49:59,868 - add_course.py:32 - error - {"videos":["534895974"],"teachers":["f56ba58041bc3432e8ce9d7820fb03a7"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试10","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/ab444c12e69544c0aa5fc876c9682da7","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 11:49:59,898 - course_model.py:140 - error - <type 'int'>
+2016-10-18 11:49:59,898 - course_model.py:141 - error - <type 'int'>
+2016-10-18 11:49:59,900 - course_model.py:142 - error - <type 'int'>
+2016-10-18 11:49:59,900 - course_model.py:143 - error - <type 'int'>
+2016-10-18 11:49:59,900 - course_model.py:155 - error - insert course has error[%d format: a number is required, not str]
+2016-10-18 11:52:54,243 - add_course.py:32 - error - {"videos":["652021979"],"teachers":["4c195b7a76bc87811d86576121e7f0f9"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试10","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/ab444c12e69544c0aa5fc876c9682da7","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 11:52:54,273 - course_model.py:140 - error - <type 'int'>
+2016-10-18 11:52:54,275 - course_model.py:141 - error - <type 'int'>
+2016-10-18 11:52:54,276 - course_model.py:142 - error - <type 'int'>
+2016-10-18 11:52:54,276 - course_model.py:143 - error - <type 'int'>
+2016-10-18 11:52:54,276 - course_model.py:155 - error - insert course has error[%d format: a number is required, not str]
+2016-10-18 11:54:43,605 - add_course.py:32 - error - {"videos":["491338527"],"teachers":["4c195b7a76bc87811d86576121e7f0f9"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试10","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/ab444c12e69544c0aa5fc876c9682da7","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 11:54:43,713 - course_model.py:140 - error - <type 'int'>
+2016-10-18 11:54:43,713 - course_model.py:141 - error - <type 'int'>
+2016-10-18 11:54:43,713 - course_model.py:142 - error - <type 'int'>
+2016-10-18 11:54:43,713 - course_model.py:143 - error - <type 'int'>
+2016-10-18 11:56:20,299 - video_model.py:54 - error - insert course_video has error[(1054, "Unknown column 'course_title' in 'field list'")].sql[insert into course_video(video_image,status,video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/f064228634b2a517fdde2a23a82bb927',0,'0199fa8b359592bec6275a2912123719','点击萨克的是 ','夏雪测试','2016-2-4','0199fa8b359592bec6275a2912123719',2,1244,'2016-2-4')]
+2016-10-18 11:56:48,891 - video_model.py:54 - error - insert course_video has error[(1054, "Unknown column 'course_title' in 'field list'")].sql[insert into course_video(video_image,status,video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/f064228634b2a517fdde2a23a82bb927',0,'0199fa8b359592bec6275a2912123719','点击萨克的是 ','夏雪测试','2016-2-4','0199fa8b359592bec6275a2912123719',2,1244,'2016-2-4')]
+2016-10-18 11:57:11,604 - update_teacher.py:53 - error - 0
+2016-10-18 11:59:51,055 - add_course.py:32 - error - {"videos":["534895974"],"teachers":["42ccf367d168b4fece2c5c0a765fa8a2"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试11","traveller_price":"1231","member_price":"123","common_price":"123","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示"}
+2016-10-18 11:59:51,055 - add_course.py:46 - error - the param cover_image invalid
+2016-10-18 12:00:02,038 - add_course.py:32 - error - {"videos":[null],"teachers":[null],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试11","traveller_price":"1231","member_price":"123","common_price":"123","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/bc366c45c9704a40701208f424af7467"}
+2016-10-18 12:00:02,062 - course_model.py:140 - error - <type 'int'>
+2016-10-18 12:00:02,062 - course_model.py:141 - error - <type 'int'>
+2016-10-18 12:00:02,062 - course_model.py:142 - error - <type 'int'>
+2016-10-18 12:00:02,063 - course_model.py:143 - error - <type 'int'>
+2016-10-18 12:00:02,111 - course_teacher.py:15 - error - insert course_teacher has error[(1048, "Column 'teacher_id' cannot be null")].sql[insert into course_teacher (teacher_id, course_id) value (%s, %s)]
+2016-10-18 12:01:01,762 - add_course.py:32 - error - {"videos":["731510104"],"teachers":["4c195b7a76bc87811d86576121e7f0f9"],"only_yanzhi":"研值课","strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试11","traveller_price":"1231","member_price":"123","common_price":"123","type":"线上小课","state":"直播中","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","status":"显示","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/bc366c45c9704a40701208f424af7467"}
+2016-10-18 12:01:01,811 - course_model.py:115 - error - course is exist: 赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试11 -> 0acf11e12568603f66d9ff1dca3b5791
+2016-10-18 12:01:36,819 - update_course.py:170 - error - update course v2_introduce, course_id[444ee7a06d4aa59db0d25bc58317c470]
+2016-10-18 12:01:36,854 - video_model.py:46 - error - update course_video has error[(1062, "Duplicate entry '444ee7a06d4aa59db0d25bc58317c470-0-5' for key 'PRIMARY'")].sql[update course_video set course_id = '444ee7a06d4aa59db0d25bc58317c470',status = 1 where video_id in ('731510104')]
+2016-10-18 12:01:36,855 - update_course.py:117 - error - 12300
+2016-10-18 12:01:36,855 - update_course.py:118 - error - 12300
+2016-10-18 12:01:36,855 - update_course.py:119 - error - 12300
+2016-10-18 12:03:22,706 - add_teacher.py:42 - error - parameter position invalid
+2016-10-18 12:03:29,769 - add_teacher.py:48 - error - parameter head_image invalid
+2016-10-18 12:04:38,371 - add_course.py:32 - error - {"videos":["491338527"],"teachers":["4c195b7a76bc87811d86576121e7f0f9"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试14","traveller_price":"12","member_price":"12","common_price":"12","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/a5239e6f7f2f3a6ff4f46d4a8ca77998","type":"线上小课","state":"即将直播","introduce":"课程简介：能否拿出服务于业务的数据模型创新，是能否颠覆已有商业模式的关键条件。李玥分享了LinkedIn是如何利用数据创新，让决策和业务都变得更轻松，营销业绩也随之提高。","only_yanzhi":"非研值","status":"显示"}
+2016-10-18 12:04:38,391 - course_model.py:140 - error - <type 'int'>
+2016-10-18 12:04:38,391 - course_model.py:141 - error - <type 'int'>
+2016-10-18 12:04:38,391 - course_model.py:142 - error - <type 'int'>
+2016-10-18 12:04:38,391 - course_model.py:143 - error - <type 'int'>
+2016-10-18 12:06:31,871 - update_course.py:117 - error - 120000
+2016-10-18 12:06:31,872 - update_course.py:118 - error - 120000
+2016-10-18 12:06:31,872 - update_course.py:119 - error - 120000
+2016-10-18 12:06:31,881 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[120000, 120000, 120000]}' where course_id='c4b20e2206552930d0f747201282d75b']
+2016-10-18 12:06:31,888 - course_model.py:105 - error - update course fail sql[update course set status=1,display_time='123分钟',only_yanzhi=0,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试14',vphoto_id='',state=4,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/a5239e6f7f2f3a6ff4f46d4a8ca77998',strategy_image='',strategy='',type='100' where course_id='c4b20e2206552930d0f747201282d75b']
+2016-10-18 13:49:40,767 - admin_model.py:23 - error - select table admin has error[(2013, 'Lost connection to MySQL server during query')]
+2016-10-18 13:59:16,819 - video_model.py:39 - error - not found any video.sql[select * from course_video where title like '%%undefined%%' order by create_time desc limit 0,10]
+2016-10-18 16:53:41,230 - get_course_list.py:24 - error - invalid page_no error[invalid literal for int() with base 10: '0$title=undefined']
+2016-10-18 17:16:10,292 - get_course_list.py:24 - error - invalid page_no error[invalid literal for int() with base 10: '1$title=undefined']
+2016-10-18 17:37:42,752 - update_course.py:170 - error - update course v2_introduce, course_id[c4b20e2206552930d0f747201282d75b]
+2016-10-18 17:37:43,025 - update_course.py:117 - error - 120000
+2016-10-18 17:37:43,025 - update_course.py:118 - error - 120000
+2016-10-18 17:37:43,025 - update_course.py:119 - error - 120000
+2016-10-18 17:37:43,033 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[120000, 120000, 120000]}' where course_id='c4b20e2206552930d0f747201282d75b']
+2016-10-18 17:37:43,259 - course_model.py:105 - error - update course fail sql[update course set status=1,display_time='123分钟',only_yanzhi=0,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试14',vphoto_id='',state=4,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/a5239e6f7f2f3a6ff4f46d4a8ca77998',strategy_image='',strategy='',type='100' where course_id='c4b20e2206552930d0f747201282d75b']
+2016-10-18 17:38:54,674 - update_course.py:170 - error - update course v2_introduce, course_id[c4b20e2206552930d0f747201282d75b]
+2016-10-18 17:38:54,736 - update_course.py:117 - error - 120000
+2016-10-18 17:38:54,736 - update_course.py:118 - error - 120000
+2016-10-18 17:38:54,736 - update_course.py:119 - error - 120000
+2016-10-18 17:38:54,747 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[120000, 120000, 120000]}' where course_id='c4b20e2206552930d0f747201282d75b']
+2016-10-18 17:38:54,759 - course_model.py:105 - error - update course fail sql[update course set status=1,display_time='123分钟',only_yanzhi=0,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试14',vphoto_id='',state=4,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/a5239e6f7f2f3a6ff4f46d4a8ca77998',strategy_image='',strategy='',type='100' where course_id='c4b20e2206552930d0f747201282d75b']
+2016-10-18 18:06:35,749 - update_course.py:117 - error - 120000
+2016-10-18 18:06:35,750 - update_course.py:118 - error - 120000
+2016-10-18 18:06:35,750 - update_course.py:119 - error - 120000
+2016-10-18 18:06:35,757 - course_model.py:105 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[120000, 120000, 120000]}' where course_id='c4b20e2206552930d0f747201282d75b']
+2016-10-18 18:06:35,766 - course_model.py:105 - error - update course fail sql[update course set status=1,display_time='123分钟',only_yanzhi=0,title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试14',vphoto_id='',state=4,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/a5239e6f7f2f3a6ff4f46d4a8ca77998',strategy_image='',strategy='',type='100' where course_id='c4b20e2206552930d0f747201282d75b']
+2016-10-18 18:18:22,188 - course_model.py:57 - error - select course table has error[Multiple rows returned for Database.get() query].sql[select * from course]
+2016-10-18 18:18:55,220 - course_model.py:57 - error - select course table has error[Multiple rows returned for Database.get() query].sql[select * from course]
+2016-10-18 18:20:12,740 - course_model.py:57 - error - select course table has error[Multiple rows returned for Database.get() query].sql[select * from course]
+2016-10-18 18:20:45,049 - course_model.py:57 - error - select course table has error[Multiple rows returned for Database.get() query].sql[select * from course]
+2016-10-18 18:36:36,990 - add_course.py:32 - error - {"videos":["453676517","347844229"],"teachers":["3fcffe5cd72e6401d3cbaf4bc1a4a138","991b9c9e1e74b67251ecf0915502ccf8"],"strategy":"","strategy_image":"","vphoto_id":"","display_time":"123分钟","title":"谢雪测试","traveller_price":"123","member_price":"123","common_price":"123","cover_image":"http://yxs-app.oss-cn-beijing.aliyuncs.com/8691884231f5eef174bae55aab495e4b","type":"现场大课","state":"预告","introduce":"下毒杀敌大神大神看看查看骄傲的市场家属达成开始打春节开始到很常见的扩散萨克和促进的刷卡处斯卡迪和测试卡家伙擦看撒谎差点卡死家伙擦卡市场手机卡凯撒超。","status":"隐藏"}
+2016-10-18 18:36:37,045 - course_model.py:149 - error - <type 'int'>
+2016-10-18 18:36:37,045 - course_model.py:150 - error - <type 'int'>
+2016-10-18 18:36:37,045 - course_model.py:151 - error - <type 'int'>
+2016-10-18 18:36:37,045 - course_model.py:152 - error - <type 'int'>
+2016-10-18 18:39:06,108 - update_course.py:117 - error - 1200
+2016-10-18 18:39:06,108 - update_course.py:118 - error - 12300
+2016-10-18 18:39:06,108 - update_course.py:119 - error - 123100
+2016-10-18 18:39:06,135 - course_model.py:111 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=1,display_time='123分钟',only_yanzhi=0,videos='[]',title='赫畅：小煎饼的大梦想--黄太吉的三年一千天-测试11',vphoto_id='',state=4,teachers='[]',cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/bc366c45c9704a40701208f424af7467',strategy_image='',strategy='',type='100' where course_id='0acf11e12568603f66d9ff1dca3b5791']
+2016-10-18 18:40:48,921 - add_teacher.py:69 - error - has exist sql[select * from teacher where name = '夏雪测试1']
+2016-10-18 18:41:29,618 - update_teacher.py:53 - error - 1
+2016-10-18 18:43:01,525 - add_teacher.py:69 - error - has exist sql[select * from teacher where name = '夏雪测试2']
+2016-10-18 18:46:48,719 - video_model.py:63 - error - insert course_video has error[(1054, "Unknown column '123\xe5\x88\x86\xe9\x92\x9f' in 'field list'")].sql[insert into course_video(video_image,video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/573f37d6f0535de1eab4debe198e8fba','0199fa8b359592bec6275a2912123719','的时刻萨达哈空间很多次抠脚大汉是分v健康的防护 ','夏雪测试','2016-3-4','0199fa8b359592bec6275a2912123719',2,123分钟,'2016-3-4')]
+2016-10-18 18:46:53,503 - video_model.py:63 - error - insert course_video has error[(1054, "Unknown column '123\xe5\x88\x86\xe9\x92\x9f' in 'field list'")].sql[insert into course_video(video_image,status,video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/573f37d6f0535de1eab4debe198e8fba',0,'0199fa8b359592bec6275a2912123719','的时刻萨达哈空间很多次抠脚大汉是分v健康的防护 ','夏雪测试','2016-3-4','0199fa8b359592bec6275a2912123719',2,123分钟,'2016-3-4')]
+2016-10-18 18:53:56,424 - video_model.py:63 - error - insert course_video has error[(1054, "Unknown column 'course_title' in 'field list'")].sql[insert into course_video(video_image,status,video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/223c5f6330d4a7591d6b2fd61d43fcc2',1,'febbd6769c014f4976e2352469a2fc99','放大看回访时是否会是空间的发挥速度快回复','夏雪测试2','2016-3-4','febbd6769c014f4976e2352469a2fc99',2,1234,'2016-3-4')]
+2016-10-19 10:14:19,479 - update_teacher.py:53 - error - 1
+2016-10-19 10:14:50,036 - add_teacher.py:69 - error - has exist sql[select * from teacher where name = '夏雪测试']
+2016-10-19 10:16:39,857 - add_teacher.py:69 - error - has exist sql[select * from teacher where name = '夏雪测试']
+2016-10-19 10:17:26,000 - add_teacher.py:69 - error - has exist sql[select * from teacher where name = '夏雪测试']
+2016-10-19 10:17:47,188 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/c61296d3d2f047b4e0fec5640bc30019', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:17:56,062 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/c61296d3d2f047b4e0fec5640bc30019', status=0, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:19:54,263 - video_model.py:63 - error - insert course_video has error[(1054, "Unknown column 'course_title' in 'field list'")].sql[insert into course_video(video_image,status,video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/9a15e7dabc51e09ec012bd73ca02c2b0',0,'0199fa8b359592bec6275a2912123719','插得好成绩删除','夏雪测试','2016-3-4','0199fa8b359592bec6275a2912123719',2,1234,'2016-3-4')]
+2016-10-19 10:22:45,641 - video_model.py:63 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ','')' at line 1")].sql[insert into course_video(video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('b51a15b0785422bf9832a69e07c88317','','茶几上的超级卡车','','b51a15b0785422bf9832a69e07c88317',,,'')]
+2016-10-19 10:24:44,680 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/5420e9031fe42dd8b30161bfc3f06f31', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:27:48,944 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:28:29,130 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:28:37,463 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:28:55,529 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:31:59,151 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:33:12,677 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 10:52:07,569 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 11:23:08,075 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 11:31:19,552 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 11:32:30,198 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', seq_no=9, duration=0, display_end_time='2016-10-18' where video_id='123']
+2016-10-19 11:34:22,736 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', seq_no=9, duration=0, display_end_time='2016-10-18' where video_id='123']
+2016-10-19 11:36:12,323 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-4' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', seq_no=4, duration=0, display_end_time='2016-10-18' where video_id='123']
+2016-10-19 11:47:38,601 - update_teacher.py:53 - error - 0
+2016-10-19 11:57:04,329 - video_model.py:63 - error - insert course_video has error[(1054, "Unknown column 'course_title' in 'field list'")].sql[insert into course_video(video_image,status,video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/c0c0dbc310ba439d0f9828788bc6507a',0,'4d4dd9e3c9033377769ee7c83e3a6f56','顶灯呼救试看结束好','谢雪测试','2016-3-4','4d4dd9e3c9033377769ee7c83e3a6f56',2,1234,'2016-3-4')]
+2016-10-19 11:57:13,213 - video_model.py:63 - error - insert course_video has error[(1054, "Unknown column 'course_title' in 'field list'")].sql[insert into course_video(video_image,status,video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/c0c0dbc310ba439d0f9828788bc6507a',0,'4d4dd9e3c9033377769ee7c83e3a6f56','顶灯呼救试看结束好','谢雪测试','','4d4dd9e3c9033377769ee7c83e3a6f56',2,1234,'')]
+2016-10-19 11:57:53,857 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=9 where video_id='123']
+2016-10-19 11:58:00,584 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-1' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=1 where video_id='123']
+2016-10-19 11:58:10,812 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-1' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, update_time='2016-10-18', display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', lang_type='0', create_time='2016-10-18', duration=0, display_end_time='2016-10-18', seq_no=1 where video_id='123']
+2016-10-19 11:58:21,987 - update_teacher.py:53 - error - 1
+2016-10-19 11:58:40,243 - update_teacher.py:53 - error - 1
+2016-10-19 13:51:19,525 - video_model.py:33 - error - get video list has error[(2013, 'Lost connection to MySQL server during query')].sql[select * from course_video order by create_time desc limit 0,10]
+2016-10-19 13:53:43,503 - update_teacher.py:53 - error - 1
+2016-10-19 13:53:59,457 - video_model.py:63 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''')' at line 1")].sql[insert into course_video(video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('91dc459cb98602979331cbe42dac385e','','地方和v大看和v扩大和v跨界的好好','','91dc459cb98602979331cbe42dac385e',1,,'')]
+2016-10-19 14:35:34,732 - course_model.py:66 - error - select course table has error[(2013, 'Lost connection to MySQL server during query')].sql[select * from course order by create_time DESC limit 0, 10]
+2016-10-19 14:56:45,956 - video_model.py:63 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''')' at line 1")].sql[insert into course_video(video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('81d338f1ebadb47089b00ae4b60b7b51','','大会上的好处说的','','81d338f1ebadb47089b00ae4b60b7b51',1,,'')]
+2016-10-19 16:03:55,293 - video_model.py:33 - error - get video list has error[(2013, 'Lost connection to MySQL server during query')].sql[select * from course_video order by create_time desc limit 0,10]
+2016-10-19 16:04:36,395 - video_model.py:63 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''')' at line 1")].sql[insert into course_video(video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('8054319766404478946bb2790cde1644','','夏雪测试1','','8054319766404478946bb2790cde1644',1,,'')]
+2016-10-19 16:04:50,553 - video_model.py:63 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''')' at line 1")].sql[insert into course_video(video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('8054319766404478946bb2790cde1644','','夏雪测试1','','8054319766404478946bb2790cde1644',1,,'')]
+2016-10-19 16:08:42,163 - video_model.py:63 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1")].sql[insert into course_video(video_id,display_end_time,title,display_start_time,course_id,seq_no,duration) VALUE ('202cb962ac59075b964b07152d234b70','','123','','202cb962ac59075b964b07152d234b70',1,)]
+2016-10-19 16:09:28,621 - video_model.py:63 - error - insert course_video has error[(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1")].sql[insert into course_video(video_image,video_id,display_end_time,title,display_start_time,course_id,seq_no,duration) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/63f90b7cdcd64ad764434e71da078893','202cb962ac59075b964b07152d234b70','','123','','202cb962ac59075b964b07152d234b70',1,)]
+2016-10-19 16:12:46,609 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '1dcbb7a9d6d4fefc7b300639a64318ec-0-1' for key 'PRIMARY'")].sql[update course_video set video_image='', status=1, display_start_time='2016-10-18', display_end_time='2016-10-18', title='王东 B2B电商的跋涉之路', seq_no=1, duration=0 where video_id='123']
+2016-10-19 16:15:22,296 - video_model.py:63 - error - insert course_video has error[(1292, "Incorrect datetime value: '' for column 'display_end_time' at row 1")].sql[insert into course_video(video_id,display_end_time,title,display_start_time,course_id,seq_no,duration) VALUE ('eeff93674fd5c4a3b96cefa0f9a7dc1e','','娄永锋-测试','','eeff93674fd5c4a3b96cefa0f9a7dc1e',1,0)]
+2016-10-19 16:15:53,525 - video_model.py:63 - error - insert course_video has error[(1054, "Unknown column 'course_title' in 'field list'")].sql[insert into course_video(video_id,course_title,title,display_start_time,course_id,seq_no,duration,display_end_time) VALUE ('202cb962ac59075b964b07152d234b70','','123','','202cb962ac59075b964b07152d234b70',1,0,'')]
+2016-10-19 16:16:36,509 - video_model.py:63 - error - insert course_video has error[(1292, "Incorrect datetime value: '' for column 'display_end_time' at row 1")].sql[insert into course_video(video_image,video_id,display_end_time,title,display_start_time,course_id,seq_no,duration) VALUE ('http://yxs-app.oss-cn-beijing.aliyuncs.com/f44a70a9e0b305e3ca4ac7ffdb4a3539','4671aeaf49c792689533b00664a5c3ef','','1323','','4671aeaf49c792689533b00664a5c3ef',1,0)]
+2016-10-19 16:16:51,792 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-9' for key 'PRIMARY'")].sql[update course_video set video_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/5ac60f905250ae1e299e5a528c7fcf9d', status=1, display_start_time='2016-10-18', title='王东 B2B电商的跋涉之路', course_id='647db2bae39e8088a0fbd275e453557e', seq_no=9, duration=0, display_end_time='2016-10-18' where video_id='123']
+2016-10-19 17:21:13,224 - admin_model.py:23 - error - select table admin has error[(2013, 'Lost connection to MySQL server during query')]
+2016-10-19 21:42:58,374 - get_course_list.py:64 - error - course_meta_list len=10
+2016-10-19 21:43:45,792 - get_course_list.py:64 - error - course_meta_list len=10
+2016-10-19 21:43:45,793 - get_course_list.py:77 - error - course_num=171
+2016-10-19 21:44:17,994 - get_course_list.py:64 - error - course_meta_list len=10
+2016-10-19 21:44:17,996 - get_course_list.py:77 - error - course_num=171
+2016-10-19 21:44:39,392 - get_course_list.py:64 - error - course_meta_list len=10
+2016-10-19 21:44:39,392 - get_course_list.py:77 - error - course_num=171
+2016-10-19 21:45:38,911 - get_course_list.py:65 - error - course_meta_list len=10
+2016-10-19 21:45:38,911 - get_course_list.py:78 - error - course_num=171
+2016-10-19 21:47:03,394 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:47:03,395 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:47:31,871 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:47:31,871 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:47:52,355 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:47:52,355 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:48:06,483 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:48:06,484 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:48:19,460 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:48:19,460 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:49:39,276 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:49:39,276 - get_course_list.py:79 - error - course_num=11
+2016-10-19 21:50:17,316 - util_method.py:33 - error - the type is invalid type[现上小课]
+2016-10-19 21:50:17,336 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:50:17,336 - get_course_list.py:79 - error - course_num=63
+2016-10-19 21:50:35,410 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:50:35,410 - get_course_list.py:79 - error - course_num=63
+2016-10-19 21:51:58,913 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:51:58,914 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:52:17,516 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:52:17,516 - get_course_list.py:79 - error - course_num=92
+2016-10-19 21:52:37,696 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:52:37,697 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:53:03,204 - update_course.py:170 - error - update course v2_introduce, course_id[d376871560e3a8a5494b002403b971c6]
+2016-10-19 21:53:03,243 - update_course.py:170 - error - update course v2_introduce, course_id[d376871560e3a8a5494b002403b971c6]
+2016-10-19 21:53:03,263 - update_course.py:117 - error - 2900
+2016-10-19 21:53:03,263 - update_course.py:118 - error - 0
+2016-10-19 21:53:03,263 - update_course.py:119 - error - 0
+2016-10-19 21:53:03,269 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='d376871560e3a8a5494b002403b971c6']
+2016-10-19 21:53:03,384 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:53:03,384 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:53:10,257 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:53:10,257 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:53:14,700 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:53:14,700 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:53:24,970 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:53:24,970 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:53:34,026 - update_course.py:170 - error - update course v2_introduce, course_id[647db2bae39e8088a0fbd275e453557e]
+2016-10-19 21:53:34,071 - update_course.py:170 - error - update course v2_introduce, course_id[647db2bae39e8088a0fbd275e453557e]
+2016-10-19 21:53:34,092 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-0' for key 'PRIMARY'")].sql[update course_video set course_id = '647db2bae39e8088a0fbd275e453557e',status = 1 where video_id in ('123','123','123')]
+2016-10-19 21:53:34,092 - update_course.py:117 - error - 100000
+2016-10-19 21:53:34,092 - update_course.py:118 - error - 4900
+2016-10-19 21:53:34,092 - update_course.py:119 - error - 0
+2016-10-19 21:53:34,098 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[100000, 4900, 0]}' where course_id='647db2bae39e8088a0fbd275e453557e']
+2016-10-19 21:53:34,178 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:53:34,178 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:54:03,085 - update_course.py:117 - error - 4900
+2016-10-19 21:54:03,085 - update_course.py:118 - error - 4900
+2016-10-19 21:54:03,085 - update_course.py:119 - error - 4900
+2016-10-19 21:54:03,131 - course_model.py:111 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=0,display_time='2016/11/05/09:00-18:00',only_yanzhi=0,videos='[]',title='大课预告：B2B生意怎么做-测试',vphoto_id='',state=2,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/7db71bb06cce76686298f3d8b9eae466',strategy_image='',strategy='',type='0' where course_id='647db2bae39e8088a0fbd275e453557e']
+2016-10-19 21:54:03,341 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:54:03,342 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:54:12,861 - update_course.py:117 - error - 4900
+2016-10-19 21:54:12,861 - update_course.py:118 - error - 4900
+2016-10-19 21:54:12,861 - update_course.py:119 - error - 4900
+2016-10-19 21:54:12,867 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[4900, 4900, 4900]}' where course_id='647db2bae39e8088a0fbd275e453557e']
+2016-10-19 21:54:12,874 - course_model.py:111 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=0,display_time='2016/11/05/09:00-18:00',only_yanzhi=0,videos='[]',title='大课预告：B2B生意怎么做-测试',vphoto_id='',state=2,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/7db71bb06cce76686298f3d8b9eae466',strategy_image='',strategy='',type='1' where course_id='647db2bae39e8088a0fbd275e453557e']
+2016-10-19 21:54:13,115 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:54:13,117 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:54:20,573 - update_course.py:117 - error - 4900
+2016-10-19 21:54:20,573 - update_course.py:118 - error - 4900
+2016-10-19 21:54:20,573 - update_course.py:119 - error - 4900
+2016-10-19 21:54:20,579 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[4900, 4900, 4900]}' where course_id='647db2bae39e8088a0fbd275e453557e']
+2016-10-19 21:54:20,585 - course_model.py:111 - error - update course has error[(1054, "Unknown column 'videos' in 'field list'")].sql[update course set status=0,display_time='2016/11/05/09:00-18:00',only_yanzhi=0,videos='[]',title='大课预告：B2B生意怎么做-测试',vphoto_id='',state=2,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/7db71bb06cce76686298f3d8b9eae466',strategy_image='',strategy='',type='1' where course_id='647db2bae39e8088a0fbd275e453557e']
+2016-10-19 21:54:20,805 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:54:20,805 - get_course_list.py:79 - error - course_num=171
+2016-10-19 21:56:04,082 - video_model.py:55 - error - update course_video has error[(1062, "Duplicate entry '647db2bae39e8088a0fbd275e453557e-0-0' for key 'PRIMARY'")].sql[update course_video set course_id = '647db2bae39e8088a0fbd275e453557e',status = 1 where video_id in ('123')]
+2016-10-19 21:56:04,082 - update_course.py:117 - error - 4900
+2016-10-19 21:56:04,082 - update_course.py:118 - error - 4900
+2016-10-19 21:56:04,082 - update_course.py:119 - error - 4900
+2016-10-19 21:56:04,091 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[4900, 4900, 4900]}' where course_id='647db2bae39e8088a0fbd275e453557e']
+2016-10-19 21:56:04,098 - course_model.py:111 - error - update course has error[(1054, "Unknown column 'video_name' in 'field list'")].sql[update course set status=0,display_time='2016/11/05/09:00-18:00',only_yanzhi=0,title='大课预告：B2B生意怎么做-测试',vphoto_id='',state=2,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/7db71bb06cce76686298f3d8b9eae466',strategy_image='',strategy='',type='0',video_name='齐' where course_id='647db2bae39e8088a0fbd275e453557e']
+2016-10-19 21:56:04,309 - get_course_list.py:66 - error - course_meta_list len=10
+2016-10-19 21:56:04,309 - get_course_list.py:79 - error - course_num=171
+2016-10-19 22:02:02,737 - update_course.py:170 - error - update course v2_introduce, course_id[d376871560e3a8a5494b002403b971c6]
+2016-10-19 22:02:02,763 - update_course.py:117 - error - 2900
+2016-10-19 22:02:02,763 - update_course.py:118 - error - 0
+2016-10-19 22:02:02,763 - update_course.py:119 - error - 0
+2016-10-19 22:02:02,769 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='d376871560e3a8a5494b002403b971c6']
+2016-10-19 22:03:19,230 - update_course.py:170 - error - update course v2_introduce, course_id[d376871560e3a8a5494b002403b971c6]
+2016-10-19 22:03:19,256 - update_course.py:117 - error - 2900
+2016-10-19 22:03:19,257 - update_course.py:118 - error - 0
+2016-10-19 22:03:19,257 - update_course.py:119 - error - 0
+2016-10-19 22:03:19,263 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='d376871560e3a8a5494b002403b971c6']
+2016-10-19 22:05:33,407 - update_course.py:167 - error - update course v2_introduce, course_id[d376871560e3a8a5494b002403b971c6]
+2016-10-19 22:05:33,436 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='d376871560e3a8a5494b002403b971c6']
+2016-10-19 22:10:15,579 - update_course.py:167 - error - update course v2_introduce, course_id[d376871560e3a8a5494b002403b971c6]
+2016-10-19 22:10:15,608 - course_model.py:114 - error - update course fail sql[update course set price='{"open_level":1, "desc":"社员免费", "grade_price":[2900, 0, 0]}' where course_id='d376871560e3a8a5494b002403b971c6']
+2016-10-19 22:17:01,960 - course_model.py:111 - error - update course has error[(1054, "Unknown column 'video_name' in 'field list'")].sql[update course set status=1,display_time='222分钟',only_yanzhi=0,title='贾伟：信息时代的产品创新',vphoto_id='yxs1015',state=64,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/c7afdb96416688bf50be1cce7f0815a2',strategy_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/c7afdb96416688bf50be1cce7f0815a2',strategy='http://yxs-app.oss-cn-beijing.aliyuncs.com/c7afdb96416688bf50be1cce7f0815a2',type='0',video_name='贾伟' where course_id='d376871560e3a8a5494b002403b971c6']
+2016-10-19 22:17:19,325 - course_model.py:111 - error - update course has error[(1054, "Unknown column 'teacher_name' in 'field list'")].sql[update course set status=1,display_time='222分钟',teacher_name='李',only_yanzhi=0,title='贾伟：信息时代的产品创新',vphoto_id='yxs1015',state=64,cover_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/c7afdb96416688bf50be1cce7f0815a2',strategy_image='http://yxs-app.oss-cn-beijing.aliyuncs.com/c7afdb96416688bf50be1cce7f0815a2',strategy='http://yxs-app.oss-cn-beijing.aliyuncs.com/c7afdb96416688bf50be1cce7f0815a2',type='0' where course_id='d376871560e3a8a5494b002403b971c6']
+2016-10-21 15:29:31,415 - login.py:23 - error - invalid param admin_name[]
+2016-10-21 15:29:48,359 - login.py:27 - error - invalid param admin_passwd[]
+2016-10-21 15:31:02,266 - login.py:27 - error - invalid param admin_passwd[]
+2016-10-21 16:33:26,585 - login.py:34 - error - login fail admin_name[娄永锋]
+2016-10-21 16:33:55,828 - login.py:34 - error - login fail admin_name[娄永锋]
